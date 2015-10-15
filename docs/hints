@@ -1,0 +1,44 @@
+# with overline, for parts
+* with overline, for chapters
+=, for sections
+-, for subsections
+^, for subsubsections
+", for paragraphs
+
+
+one asterisk: *text* for emphasis (italics),
+two asterisks: **text** for strong emphasis (boldface), and
+backquotes: ``text`` for code samples.
+
+thisis\ *one*\ word.
+
+
+term (up to a line of text)
+   Definition of the term, which must be indented
+
+   and can even consist of multiple paragraphs
+
+next term
+   Description.
+
+
+
+* This is a bulleted list.
+* It has two items, the second
+  item uses two lines.
+
+1. This is a numbered list.
+2. It has two items too.
+
+#. This is a numbered list.
+#. It has two items too.
+
+
+
+| These lines are
+| broken exactly like in
+| the source file.
+
+
+generate docs:
+sphinx-build -b html . /data/webdocs/
