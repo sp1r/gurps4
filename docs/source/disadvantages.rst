@@ -3,43 +3,43 @@
 **************
 
 
-======================================================= =============== ===================
-Название                                                Самоконтроль    Стоимость
-======================================================= =============== ===================
-:ref:`Bad Sight <bad_sight>`                                            -10 или -25
-:ref:`Bad Temper <bad_temper>`                          да              -10
-:ref:`Bloodlust <bloodlust>`                            да              -10
-:ref:`Code of Honor <code_of_honor>`                                    от -5 до -15
-:ref:`Curious <curious>`                                да              -5
-:ref:`Delusions <delusions>`                                            от -5 до -15
-:ref:`Gluttony <gluttony>`                              да              -5
-:ref:`Greed <greed>`                                    да              -15
-:ref:`Hard of Hearing <hard_of_hearing>`                                -10
-:ref:`Honesty <honesty>`                                да              -10
-:ref:`Impulsiveness <impulsiveness>`                    да              -10
-:ref:`Intolerance <intolerance>`                                        различается
-:ref:`Jealousy <jealousy>`                                              -10
-:ref:`Lecherousness <lecherousness>`                    да              -15
-:ref:`Obsession <obsession>`                            да              -5 или -10
-:ref:`Odious Personal Habits <Odious_Personal_Habits>`                  -5, -10 или -15
-:ref:`Overconfidence <overconfidence>`                  да              -5
-:ref:`Reluctant Killer <pacifism>`                                      -5
-:ref:`Cannot Harm Innocents <pacifism>`                                 -10
-:ref:`Phobias <phobias>`                                да              различается
-:ref:`Sense of Duty <sense_of_duty>`                                    от -2 до -20
-:ref:`Truthfulness <truthfulness>`                      да              -5
-:ref:`Unluckiness <unluckiness>`                                        -10
-:ref:`Vow <vow>`                                                        от -5 до -15
-======================================================= =============== ===================
+======================================================= ======================= ===================
+Название                                                Возможен самоконтроль   Стоимость
+======================================================= ======================= ===================
+:ref:`Слабое зрение <bad_sight>`                                                -10 или -25
+:ref:`Дурной нрав <bad_temper>`                         да                      -10
+:ref:`Кровожадность <bloodlust>`                        да                      -10
+:ref:`Кодекс чести <code_of_honor>`                                             от -5 до -15
+:ref:`Любопытство <curious>`                            да                      -5
+:ref:`Заблуждения <delusions>`                                                  от -5 до -15
+:ref:`Обжорство <gluttony>`                             да                      -5
+:ref:`Жадность <greed>`                                 да                      -15
+:ref:`Тугой на ухо <hard_of_hearing>`                                           -10
+:ref:`Честность <honesty>`                              да                      -10
+:ref:`Импульсивность <impulsiveness>`                   да                      -10
+:ref:`Нетерпимость <intolerance>`                                               различается
+:ref:`Завистливость <jealousy>`                                                 -10
+:ref:`Распущенность <lecherousness>`                    да                      -15
+:ref:`Одержимость <obsession>`                          да                      -5 или -10
+:ref:`Мерзкие привычки <Odious_Personal_Habits>`                                -5, -10 или -15
+:ref:`Самоуверенность <overconfidence>`                 да                      -5
+:ref:`Нежелание убивать <pacifism>`                                             -5
+:ref:`Не может причинять вред невиновным <pacifism>`                            -10
+:ref:`Фобия <phobias>`                                  да                      различается
+:ref:`Чувство долга <sense_of_duty>`                                            от -2 до -20
+:ref:`Правдивость <truthfulness>`                       да                      -5
+:ref:`Невезение <unluckiness>`                                                  -10
+:ref:`Клятва <vow>`                                                             от -5 до -15
+======================================================= ======================= ===================
 
 
 
 .. _bad_sight:
 
-Bad Sight
-=========
+Слабое зрение
+=============
 
-You have poor vision, giving -6 to Visionrolls and -2 to hit in combat. This
+You have poor vision, giving -6 to Vision rolls and -2 to hit in combat. This
 disadvantage costs -10 points at TLs where it is correctable (with glasses or contact lenses),
 -25 points when it is not.
 
@@ -47,8 +47,8 @@ disadvantage costs -10 points at TLs where it is correctable (with glasses or co
 
 .. _bad_temper:
 
-Bad Temper
-==========
+Дурной нрав
+===========
 
 You are not in full control of your emotions. Make a self-control roll in any
 stressful situation. If you fail, you lose your temper and must insult, attack, or
@@ -59,8 +59,8 @@ otherwise act against the cause of the stress.
 
 .. _bloodlust:
 
-Bloodlust
-=========
+Кровожадность
+=============
 
 You want to see your foes dead. In battle, you must go for killing blows, and
 put in an extra shot to make sure of a downed foe. You must make a self-control
@@ -73,8 +73,8 @@ that a foe is a foe.
 
 .. _code_of_honor:
 
-Code of Honor
-=============
+Кодекс чести
+============
 
 ou take pride in a set of principles that you follow at all times. The specifics can
 vary, but they always involve “honorable” behavior. You will do nearly anything –
@@ -86,11 +86,11 @@ points. A formal Code that applies only among peers, or an informal one that app
 the time, is worth -10 points. A formal Code that applies all the time,
 or that requires suicide if broken, is worth -15 points. The GM has the
 final say! A couple of examples
-**Code of Honor (Pirate’s)**:
+**Кодекс чести (Pirate’s)**:
 Always avenge an insult, regardless of the danger; your buddy’s foe is your own;
 never attack a fellow crewman or buddy except in a fair, open duel.
 Anything else goes. This is also suitable for brigands, bikers, etc. - 5 points.
-**Code of Honor (Gentleman’s)**: Never break your word. Never ignore an insult to
+**Кодекс чести (Gentleman’s)**: Never break your word. Never ignore an insult to
 yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel
 (not necessarily to the death!). Never take advantage of an opponent in any way;
 weapons and circumstances must be equal (except in open war). This only applies
@@ -101,8 +101,8 @@ whipping, not a duel! -10 points.
 
 .. _curious:
 
-Curious
-=======
+Любопытство
+===========
 
 You are naturally very inquisitive. This is not the curiosity that affects
 all PCs (“What’s in that cave? Where did the flying saucer come from?”), but the
@@ -114,8 +114,8 @@ know it could be dangerous. Good roleplayers won’t try to make this roll very 
 
 .. _delusions:
 
-Delusions
-=========
+Заблуждения
+===========
 
 You believe something that simply is not true. This may cause others to consider you
 insane. And they may be right! If you suffer from a Delusion, you must
@@ -132,8 +132,8 @@ or pity you than to attack. -15 points.
 
 .. _gluttony:
 
-Gluttony
-========
+Обжорство
+=========
 
 You are overly fond of good food and drink. Given the chance, you must always
 burden yourself with extra provisions. You should never willingly miss a meal. Make a
@@ -144,8 +144,8 @@ reason, you should resist. If you fail, you partake – regardless of the conseq
 
 .. _greed:
 
-Greed
-=====
+Жадность
+========
 
 You lust for wealth. Make a self-control roll any time riches are offered – as
 payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you
@@ -157,8 +157,8 @@ is in the offing.
 
 .. _hard_of_hearing:
 
-Hard of Hearing
-===============
+Тугой на ухо
+============
 
 You are not deaf, but you have some hearing loss. You are at -4 on any Hearing
 roll and on any skill roll where it is important that you understand someone (if
@@ -168,8 +168,8 @@ you are the one talking, this disadvantage doesn’t affect you).
 
 .. _honesty:
 
-Honesty
-=======
+Честность
+=========
 
 You must obey the law, and do your best to get others to do so as well. In an area
 with little or no law, you do not “go wild” – you act as though the laws of your own
@@ -184,8 +184,8 @@ to the authorities!
 
 .. _impulsiveness:
 
-Impulsiveness
-=============
+Импульсивность
+==============
 
 You hate talk and debate. You prefer action! When you are alone, you act first
 and think later. In a group, when your friends want to stop and discuss something,
@@ -197,8 +197,8 @@ and ponder. If you fail, you must act.
 
 .. _intolerance:
 
-Intolerance
-===========
+Нетерпимость
+============
 
 You dislike and distrust some (or all) people who are different from you. You
 may be prejudiced on the basis of class, ethnicity, nationality, religion, sex, or
@@ -214,8 +214,8 @@ nasty quirk) for a rare victim.
 
 .. _jealousy:
 
-Jealousy
-========
+Завистливость
+=============
 
 You react poorly toward those who seem smarter, more attractive, or better off than
 you! You resist any plan proposed by a “rival,” and hate it if someone else is in the
@@ -226,7 +226,7 @@ victim(s) of his jealousy.
 
 .. _lecherousness:
 
-Lecherousness
+Распущенность
 =============
 
 You have an unusually strong desire for romance. Make a self-control roll whenever
@@ -240,8 +240,8 @@ and skills you can bring to bear.
 
 .. _obsession:
 
-Obsession
-=========
+Одержимость
+===========
 
 Your entire life revolves around a single goal, an overpowering fixation that
 motivates all of your actions. Make a self-control roll whenever it
@@ -254,8 +254,8 @@ while a long-term goal (e.g., becoming President) is worth -10 points.
 
 .. _Odious_Personal_Habits:
 
-Odious Personal Habits
-======================
+Мерзкие привычки
+================
 
 You usually or always behave in a fashion repugnant to others. An Odious
 Personal Habit (OPH) is worth -5 points for every -1 to reaction rolls made by people
@@ -269,8 +269,8 @@ enough to want them.
 
 .. _overconfidence:
 
-Overconfidence
-==============
+Самоуверенность
+===============
 
 You believe that you are far more powerful, intelligent, or competent than you
 really are. You may be proud and boastful or just quietly determined, but you must
@@ -288,10 +288,10 @@ are as good as you say you are), but -2 on reactions from experienced NPCs
 Pacifism
 ========
 
-You are opposed to violence. This can take two forms. **Reluctant Killer**:
+You are opposed to violence. This can take two forms. **Нежелание убивать**:
 You get -4 to hit a person (not a monster, machine, etc.) with a deadly
 attack, or -2 if you can’t see his face. If you kill someone, roll 3d – you’re morose and
-useless for that many days. -5 points. **Cannot Harm Innocents**: You may fight –
+useless for that many days. -5 points. **Не может причинять вред невиновным**: You may fight –
 you may even start fights – but you may only use deadly force on a foe that is attempting
 to do you serious harm. -10 points.
 
@@ -299,8 +299,8 @@ to do you serious harm. -10 points.
 
 .. _phobias:
 
-Phobias
-=======
+Фобия
+=====
 
 A “phobia” is a fear of a specific item, creature, or circumstance. The more
 common an object or situation, the greater the point value of a fear of it. If you have a
@@ -321,7 +321,7 @@ self-control roll. Some common phobias: **Blood** (Hemophobia): -10 points. **Da
 
 .. _sense_of_duty:
 
-Sense of Duty
+Чувство долга
 =============
 
 You feel a strong sense of commitment toward a particular class of people. You will
@@ -338,8 +338,8 @@ everyone you know personally): -10 points. **Entire Race** (all humanity, all El
 
 .. _truthfulness:
 
-Truthfulness
-============
+Правдивость
+===========
 
 You hate to tell a lie – or you are just very bad at it. Make a self-control roll whenever
 you must keep silent about an uncomfortable truth (lying by omission). Roll at -5 if
@@ -351,8 +351,8 @@ Acting skill is at -5 when your purpose is to deceive.
 
 .. _unluckiness:
 
-Unluckiness
-===========
+Невезение
+=========
 
 You have rotten luck. Things go wrong for you – and usually at the worst possible
 time. Once per play session, the GM will arbitrarily and maliciously make
@@ -366,8 +366,8 @@ anything less than that is fine.
 
 .. _vow:
 
-Vow
-====
+Клятва
+======
 
 You have sworn an oath to do (or not to do) something. Whatever the oath, you take it
 seriously; if you didn’t, it would not be a disadvantage. This trait is especially appropriate
