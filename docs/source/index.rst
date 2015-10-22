@@ -15,6 +15,7 @@ GURPS 4
    advantages
    disadvantages
    skills
+   spells
 
 
 Indices and tables

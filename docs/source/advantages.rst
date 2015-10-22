@@ -27,6 +27,7 @@ Advantages
 :ref:`Hard to Kill <hard_to_kill>`                      2/уровень
 :ref:`High Pain Threshold <high_pain_threshold>`        10
 :ref:`Language Talent <language_talent>`                10
+:ref:`Magery <magery>`                                  5 за уровень 0, +10/уровень
 :ref:`Night Vision <night_vision>`                      1/уровень
 :ref:`Perfect Balance <perfect_balance>`                15
 :ref:`Resistant to Disease <resistant>`                 3
@@ -230,6 +231,37 @@ Language Talent
 You have a knack for languages. When you learn a language at a comprehension
 level above None, you automatically function at the next higher level.
 
+
+.. _magery:
+
+Magery
+======
+
+You are magically adept. This advantage comes in levels. You must
+purchase Magery 0 before buying higher levels of Magery.
+
+**Magery 0:**
+This is basic “magical awareness,” a prerequisite for learning magic in most worlds. The GM
+makes a Sense roll (...) when you first see a magic item, and again when
+you first touch it. On a success, you intuitively know that the item is macical.
+A roll of 3 or 4 also tells you whether the magic is helpful or dangerous,
+and about how strong it is. Those without Magery do not get this roll!
+
+**Magery 1+:**
+Higher levels of Magery make it much easier to learn and use magic. Add your Magery to IQ when
+you learn spells. For instance, if you have IQ 14, Magery 3 lets you learn
+spells as if you had IQ 17. Add your Magery level to Perception when you
+roll to sense magic items, and to IQ when you learn Thaumatology skill.
+
+Reduce the time required to learn new spells in play (but not the point cost)
+by 10% per Magery level, to a minimum of 60% of the usual time at Magery 4.
+For instance, with Magery 3, you would learn spells in 70% the usual time.
+
+Powerful spells require a minimum level of Magery as a prerequisite, so be
+sure to skim the Spell List when deciding how much Magery you need. Note that high
+Magery lets you produce powerful results with even the most basic spells;
+see Magery and Effect (...). The GM sets the maximum Magery allowed to
+PCs. Magery 3 is about right for “classic fantasy.”
 
 
 .. _night_vision:
