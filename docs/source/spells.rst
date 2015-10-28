@@ -114,13 +114,10 @@ Spell                                           Colleges                Requires
 Purify Air
 ==========
 
-**Prerequisite**: None
-
-**Classes**: Area
-
-**Duration**: Works instantly. Purification is permanent.
-
-**Base Cost**: 1. Cannot be maintained; must be recast.
+| **Prerequisite**: None
+| **Classes**: Area
+| **Duration**: Works instantly. Purification is permanent.
+| **Base Cost**: 1. Cannot be maintained; must be recast.
 
 This spell removes all impurities from the air in its area of effect. It is
 often used to neutralize the effects of poisonous gas or vapors. Note that a
@@ -138,13 +135,10 @@ exercising (GM’s discretion)
 Create Air
 ==========
 
-**Prerequisite**: :ref:`Purify Air <purify_air>`
-
-**Classes**: Area
-
-**Duration**: Breeze, bubbles, etc. last 5 seconds. Air created is permanent.
-
-**Base Cost**: 1. Cannot be maintained; must be recast.
+| **Prerequisite**: :ref:`Purify Air <purify_air>`
+| **Classes**: Area
+| **Duration**: Breeze, bubbles, etc. last 5 seconds. Air created is permanent.
+| **Base Cost**: 1. Cannot be maintained; must be recast.
 
 This spell manufactures air where none exists. When cast where there is
 already air, it produces an outward breeze lasting about five seconds.
@@ -160,13 +154,10 @@ It cannot be cast inside a living being.
 Shape Air
 =========
 
-**Prerequisite**: :ref:`Create Air <purify_air>`
-
-**Classes**: Regular
-
-**Duration**: 1 minute.
-
-**Cost**: 1 to 10. 1 produces a gentle breeze; 4 a wind; 6 a heavy wind; 8 or
+| **Prerequisite**: :ref:`Create Air <purify_air>`
+| **Classes**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 1 to 10. 1 produces a gentle breeze; 4 a wind; 6 a heavy wind; 8 or
 more a violent blast. Cost to maintain is the same as to cast.
 
 This spell lets the caster create movements of air over a small area.
@@ -184,13 +175,10 @@ as damage for knockback purposes only (this spell does not cause injury).
 No-Smell
 ========
 
-**Prerequisite**: :ref:`Purify Air <purify_air>`
-
-**Classes**: Regular
-
-**Duration**: 1 hour.
-
-**Cost**: 2; same to maintain.
+| **Prerequisite**: :ref:`Purify Air <purify_air>`
+| **Classes**: Regular
+| **Duration**: 1 hour.
+| **Cost**: 2; same to maintain.
 
 Removes the subject’s odor and makes it (or him) totally undetectable
 by smell. Any possessions are also affected. This spell changes no other
@@ -203,14 +191,13 @@ properties of the subject.
 Predict Weather
 ===============
 
-**Prerequisites**: At least four Air spells.
+| **Prerequisite**: At least four Air spells.
 
-**Cost**: Twice the length of the forecast, in days. Double the cost for a
+| **Cost**: Twice the length of the forecast, in days. Double the cost for a
 location outside the general area (say, over the horizon). Quadruple the cost
 for a place on another continent. This spell cannot predict weather on other
 planets or planes.
-
-**Time to cast**: 5 seconds per day forecast.
+| **Time to cast**: 5 seconds per day forecast.
 
 Lets the caster forecast the weather accurately for a given location over a
 given time. This forecast does not take magical meddling into account, or
@@ -223,11 +210,9 @@ predict the actions of other wizards!
 Breathe Water
 =============
 
-**Prerequisites**: :ref:`Create Air <create_air>` and :ref:`Destroy water <destroy_water>`
-
-**Duration**: 1 minute.
-
-**Cost**: 4 to cast; 2 to maintain.
+| **Prerequisites**: :ref:`Create Air <create_air>` and :ref:`Destroy water <destroy_water>`
+| **Duration**: 1 minute.
+| **Cost**: 4 to cast; 2 to maintain.
 
 Lets the subject breathe water as though it were air. Subject does
 not lose the ability to breathe ordinary air! This spell is also considered a Water
@@ -240,11 +225,9 @@ spell.
 Walk on Air
 ===========
 
-**Prerequisite**: :ref:`Shape Air <shape_air>`
-
-**Duration**: 1 minute.
-
-**Cost**: 3 to cast; 2 to maintain.
+| **Prerequisite**: :ref:`Shape Air <shape_air>`
+| **Duration**: 1 minute.
+| **Cost**: 3 to cast; 2 to maintain.
 
 Temporarily grants the subject the Walk on Air advantage (...). If the
 subject falls for any reason (e.g., injury), the spell is broken! If the spell
@@ -260,15 +243,12 @@ he’s 10 feet over a lava pit, too bad!
 Earth to Air
 ============
 
-**Prerequisites**: :ref:`Create Air <create_air>` and :ref:`Shape Earth <shape_earth>`
-
-**Duration**: Permanent.
-
-**Cost**: 1 to transform one cubic foot of earth/stone to air, giving enough air
+| **Prerequisite**: :ref:`Create Air <create_air>` and :ref:`Shape Earth <shape_earth>`
+| **Duration**: Permanent.
+| **Cost**: 1 to transform one cubic foot of earth/stone to air, giving enough air
 for one person to breathe for 1 minute. To transform larger quantities
 of earth/stone at once, the cost is 5 per cubic yard.
-
-**Time to cast**: 2 seconds.
+| **Time to cast**: 2 seconds.
 
 This spell turns earth or stone into air, which can be valuable to someone
 who is trapped underground! The more energy the caster spends, the
@@ -284,11 +264,9 @@ also considered an Earth spell.
 Stench
 ======
 
-**Prerequisite**: :ref:`Purify Air <purify_air>`
-
-**Duration**: 5 minutes, except in windy areas.
-
-**Base Cost**: 1. Cannot be maintained; must be recast.
+| **Prerequisite**: :ref:`Purify Air <purify_air>`
+| **Duration**: 5 minutes, except in windy areas.
+| **Base Cost**: 1. Cannot be maintained; must be recast.
 
 Produces a cloud of vile, yellowish gas that reeks of brimstone. Until it
 dissipates, anyone who breathes it must make a HT roll or take 1d damage.
@@ -305,12 +283,10 @@ until the spell expires, but outdoors on a windy day, it might only last 10 seco
 Lightning
 =========
 
-**Prerequisites**: :ref:`Magery 1 <magery>` and at least six other Air spells.
-
-**Cost**: Any amount up to your Magery level per second, for three seconds.
+| **Prerequisite**: :ref:`Magery 1 <magery>` and at least six other Air spells.
+| **Cost**: Any amount up to your Magery level per second, for three seconds.
 The bolt does 1d-1 burning damage per energy point.
-
-**Time to cast**: 1 to 3 seconds (the caster’s fingers sparkle as the spell
+| **Time to cast**: 1 to 3 seconds (the caster’s fingers sparkle as the spell
 builds up).
 
 Lets the caster shoot a bolt of lightning from his fingertip.
@@ -358,13 +334,10 @@ Spell                                           Colleges                Requires
 Itch
 ====
 
-**Prerequisite**: None
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: Until the subject takes a turn to scratch.
-
-**Cost**: 2. Cannot be maintained; must be recast.
+| **Prerequisite**: None
+| **Classes**: Regular; Resisted by HT
+| **Duration**: Until the subject takes a turn to scratch.
+| **Cost**: 2. Cannot be maintained; must be recast.
 
 Causes the subject to itch fiercely in a spot of the caster’s choice. The
 subject is at -2 DX until he takes one full turn to scratch (more, if armor,
@@ -377,13 +350,10 @@ etc. is in the way!). Only one Itch spell can affect a given subject at a time.
 Spasm
 =====
 
-**Prerequisite**: :ref:`Itch <itch>`
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: A moment.
-
-**Cost**: 2. Cannot be maintained; must be recast.
+| **Prerequisite**: :ref:`Itch <itch>`
+| **Classes**: Regular; Resisted by HT
+| **Duration**: A moment.
+| **Cost**: 2. Cannot be maintained; must be recast.
 
 Can be directed against any of the subject’s voluntary
 muscles. Directed against a hand, it causes the subject to
@@ -398,13 +368,10 @@ over. Ingenious casters will find other uses...
 Pain
 ====
 
-**Prerequisite**: :ref:`Spasm <spasm>`
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: 1 second.
-
-**Cost**: 2. Cannot be maintained; must be recast.
+| **Prerequisite**: :ref:`Spasm <spasm>`
+| **Classes**: Regular; Resisted by HT
+| **Duration**: 1 second.
+| **Cost**: 2. Cannot be maintained; must be recast.
 
 The subject feels a stab of agonizing pain. He must make a Will roll to
 avoid crying out. If he is in a precarious position (climbing, for instance),
@@ -420,13 +387,10 @@ gives +3 to the Will and DX rolls above; Low Pain Threshold gives -4.
 Clumsiness
 ==========
 
-**Prerequisite**: :ref:`Spasm <spasm>`
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: 1 minute.
-
-**Cost**: 1 to 5 to cast; half that amount to maintain (round up).
+| **Prerequisite**: :ref:`Spasm <spasm>`
+| **Classes**: Regular; Resisted by HT
+| **Duration**: 1 minute.
+| **Cost**: 1 to 5 to cast; half that amount to maintain (round up).
 
 The subject suffers -1 to his DX and DX-based skills for every point of
 energy put into the spell.
@@ -438,13 +402,10 @@ energy put into the spell.
 Hinder
 ======
 
-**Prerequisite**: :ref:`Clumsiness <clumsiness>` or :ref:`Haste <haste>`
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: 1 minute.
-
-**Cost**: 1 to 4 to cast; same to maintain.
+| **Prerequisite**: :ref:`Clumsiness <clumsiness>` or :ref:`Haste <haste>`
+| **Classes**: Regular; Resisted by HT
+| **Duration**: 1 minute.
+| **Cost**: 1 to 4 to cast; same to maintain.
 
 The subject is at -1 to his Move and Dodge scores for every point of energy
 put into the spell. This spell is also considered a Movement spell.
@@ -456,13 +417,10 @@ put into the spell. This spell is also considered a Movement spell.
 Rooted Feet
 ===========
 
-**Prerequisite**: :ref:`Hinder <hinder>`
-
-**Classes**: Regular; Resisted by ST
-
-**Duration**: 1 minute, or until subject breaks free.
-
-**Cost**: 3. Cannot be maintained; must be recast.
+| **Prerequisite**: :ref:`Hinder <hinder>`
+| **Classes**: Regular; Resisted by ST
+| **Duration**: 1 minute, or until subject breaks free.
+| **Cost**: 3. Cannot be maintained; must be recast.
 
 The subject’s feet are glued in place! He may try another resistance
 roll at -5 every turn, against the original spell skill roll, to break free. While
@@ -476,14 +434,11 @@ weapon is at -2 and his Dodge score is cut in half (round down).
 Paralyze Limb
 =============
 
-**Prerequisite**: :ref:`Magery 1 <magery>` and five Body Control spells,
+| **Prerequisite**: :ref:`Magery 1 <magery>` and five Body Control spells,
 including :ref:`Pain <pain>`
-
-**Classes**: Melee; Resisted by HT
-
-**Duration**: 1 minute.
-
-**Cost**: 3. Cannot be maintained; must be recast.
+| **Classes**: Melee; Resisted by HT
+| **Duration**: 1 minute.
+| **Cost**: 3. Cannot be maintained; must be recast.
 
 The caster must strike the subject on a limb to trigger this spell (hits elsewhere
 have no effect). Armor does not protect. Resolve resistance on contact.
@@ -497,13 +452,10 @@ one minute.
 Wither Limb
 ===========
 
-**Prerequisite**: :ref:`Magery 2 <magery>` and :ref:`Paralyze Limb <paralyze_limb>`
-
-**Classes**: Melee; Resisted by HT
-
-**Duration**: Permanent unless healed magically.
-
-**Cost**: 5.
+| **Prerequisite**: :ref:`Magery 2 <magery>` and :ref:`Paralyze Limb <paralyze_limb>`
+| **Classes**: Melee; Resisted by HT
+| **Duration**: Permanent unless healed magically.
+| **Cost**: 5.
 
 The caster must strike the subject on a limb to trigger this spell.
 Armor does not protect. Resolve resistance on contact. If the caster wins, the subject’s
@@ -516,11 +468,9 @@ limb withers immediately; it is crippled for all purposes. The subject also take
 Deathtouch
 ==========
 
-**Prerequisite**: :ref:`Wither Limb <wither_limb>`
-
-**Classes**: Melee
-
-**Cost**: 1 to 3.
+| **Prerequisite**: :ref:`Wither Limb <wither_limb>`
+| **Classes**: Melee
+| **Cost**: 1 to 3.
 
 The caster must strike the subject to trigger this spell; hit location is
 irrelevant. The subject takes 1d damage per point of energy in the spell.
@@ -546,11 +496,9 @@ Spell                                           Colleges                Requires
 Sense Foes
 ==========
 
-**Prerequisite**: None
-
-**Classes**: Information; Area
-
-**Base Cost**: 1 (minimum 2).
+| **Prerequisite**: None
+| **Classes**: Information; Area
+| **Base Cost**: 1 (minimum 2).
 
 Tells the caster if the subject has hostile intent, and what the degree of
 hostility is. Can be cast on one person or a whole area. If cast over an area,
@@ -563,11 +511,9 @@ this spell only detects that someone is hostile, without telling who.
 Sense Emotion
 =============
 
-**Prerequisite**: :ref:`Sense Foes <sense_foes>`
-
-**Classes**: Regular
-
-**Cost**: 2.
+| **Prerequisite**: :ref:`Sense Foes <sense_foes>`
+| **Classes**: Regular
+| **Cost**: 2.
 
 Lets the caster know what emotions the subject is feeling at the
 moment. It works on any living being, but is not much use except on sapient
@@ -581,11 +527,9 @@ Loyalty of Hirelings, ...).
 Truthsayer
 ==========
 
-**Prerequisite**: :ref:`Sense Emotion <sense_emotion>`
-
-**Classes**: Information; Resisted by Will
-
-**Cost**: 2.
+| **Prerequisite**: :ref:`Sense Emotion <sense_emotion>`
+| **Classes**: Information; Resisted by Will
+| **Cost**: 2.
 
 This tells whether the subject is lying or not. May be cast in two ways:
 1. To tell whether the subject has told any lies in the last five minutes.
@@ -600,15 +544,11 @@ as for a Regular spell.
 Mind-Reading
 ============
 
-**Prerequisite**: :ref:`Truthsayer <truthsayer>`
-
-**Classes**: Regular; Resisted by Will
-
-**Duration**: 1 minute.
-
-**Cost**: 4 to cast; 2 to maintain.
-
-**Time to cast**: 10 seconds.
+| **Prerequisite**: :ref:`Truthsayer <truthsayer>`
+| **Classes**: Regular; Resisted by Will
+| **Duration**: 1 minute.
+| **Cost**: 4 to cast; 2 to maintain.
+| **Time to cast**: 10 seconds.
 
 Lets the caster read the subject’s mind. Works on any living being, but
 is most useful on sapient creatures. Detects only surface thoughts (what
@@ -625,13 +565,10 @@ is of a different race – or -4 or more if the subject is totally alien!
 Hide Thoughts
 =============
 
-**Prerequisite**: :ref:`Truthsayer <truthsayer>`
-
-**Classes**: Regular
-
-**Duration**: 10 minutes.
-
-**Cost**: 3 to cast; 1 to maintain.
+| **Prerequisite**: :ref:`Truthsayer <truthsayer>`
+| **Classes**: Regular
+| **Duration**: 10 minutes.
+| **Cost**: 3 to cast; 1 to maintain.
 
 This spell resists all mind-reading and thought-control attempts on the
 subject. The “attacking” ability must win a Quick Contest against this spell
@@ -669,13 +606,10 @@ Spell                                           Colleges                Requires
 Seek Earth
 ==========
 
-**Prerequisite**: None
-
-**Classes**: Information
-
-**Cost**: 3.
-
-**Time to cast**: 10 seconds.
+| **Prerequisite**: None
+| **Classes**: Information
+| **Cost**: 3.
+| **Time to cast**: 10 seconds.
 
 This spell tells the caster the direction and approximate distance of the nearest
 significant amount of any one type of earth, metal, or stone. Use the
@@ -689,13 +623,10 @@ be excluded if the caster specifically mentions them before beginning.
 Shape Earth
 ===========
 
-**Prerequisite**: :ref:`Seek Earth <seek_earth>`
-
-**Classes**: Regular
-
-**Duration**: 1 minute.
-
-**Cost**: 1 per cubic yard of earth shaped (minimum 2); half that to
+| **Prerequisite**: :ref:`Seek Earth <seek_earth>`
+| **Classes**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 1 per cubic yard of earth shaped (minimum 2); half that to
 maintain (round up).
 
 Lets the caster move earth and shape it into any form. If the form is
@@ -721,13 +652,10 @@ suffocation (see Suffocation, ...).
 Earth to Stone
 ==============
 
-**Prerequisite**: :ref:`Magery 1 <magery>` and :ref:`Shape Earth <shape_earth>`
-
-**Classes**: Regular
-
-**Duration**: Permanent.
-
-**Cost**: 3 per cubic yard (minimum 3).
+| **Prerequisite**: :ref:`Magery 1 <magery>` and :ref:`Shape Earth <shape_earth>`
+| **Classes**: Regular
+| **Duration**: Permanent.
+| **Cost**: 3 per cubic yard (minimum 3).
 
 Turns an item of earth or clay into hard stone (but not gemstone).
 
@@ -738,13 +666,10 @@ Turns an item of earth or clay into hard stone (but not gemstone).
 Create Earth
 ============
 
-**Prerequisite**: :ref:`Earth to Stone <earth_to_stone>`
-
-**Classes**: Regular
-
-**Duration**: Permanent.
-
-**Cost**: 2 per cubic yard to create earth from nothingness (minimum 2);
+| **Prerequisite**: :ref:`Earth to Stone <earth_to_stone>`
+| **Classes**: Regular
+| **Duration**: Permanent.
+| **Cost**: 2 per cubic yard to create earth from nothingness (minimum 2);
 1 per cubic yard to solidify mud into good earth (minimum 1).
 
 Lets the caster create good, solid earth where none existed before. This
@@ -758,15 +683,11 @@ floating in the sea!
 Flesh to Stone
 ==============
 
-**Prerequisite**: :ref:`Earth to Stone <earth_to_stone>`
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: Permanent, unless reversed by Stone to Flesh.
-
-**Cost**: 10.
-
-**Time to cast**: 2 seconds.
+| **Prerequisite**: :ref:`Earth to Stone <earth_to_stone>`
+| **Classes**: Regular; Resisted by HT
+| **Duration**: Permanent, unless reversed by Stone to Flesh.
+| **Cost**: 10.
+| **Time to cast**: 2 seconds.
 
 “Petrifies” a living subject (and all his gear!), turning him to stone. Must
 affect the entire subject.
@@ -778,13 +699,10 @@ affect the entire subject.
 Stone to Earth
 ==============
 
-**Prerequisite**: :ref:`Earth to Stone <earth_to_stone>` or any 4 Earth spells
-
-**Classes**: Regular
-
-**Duration**: Permanent.
-
-**Cost**: 6 per cubic yard (minimum 6).
+| **Prerequisite**: :ref:`Earth to Stone <earth_to_stone>` or any 4 Earth spells
+| **Classes**: Regular
+| **Duration**: Permanent.
+| **Cost**: 6 per cubic yard (minimum 6).
 
 Turns any kind of stone (including gemstone) into simple earth. Must be
 cast on a whole stone or block, rather than a part of it.
@@ -796,16 +714,12 @@ cast on a whole stone or block, rather than a part of it.
 Stone to Flesh
 ==============
 
-**Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Flesh to Stone <flesh_to_stone>`
+| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Flesh to Stone <flesh_to_stone>`
 and :ref:`Stone to Earth <stone_to_earth>`
-
-**Classes**: Regular
-
-**Duration**: Permanent.
-
-**Cost**: 10.
-
-**Time to cast**: 5 seconds.
+| **Classes**: Regular
+| **Duration**: Permanent.
+| **Cost**: 10.
+| **Time to cast**: 5 seconds.
 
 Reverses the effects of Flesh to Stone and brings the victim back to life
 (stunned). Cannot be used to animate a statue that was never alive.
@@ -818,15 +732,11 @@ Reverses the effects of Flesh to Stone and brings the victim back to life
 Entombment
 ==========
 
-**Prerequisite**: :ref:`Magery 2 <magery>` and 5 Earth spells.
-
-**Classes**: Regular; Resisted by HT
-
-**Duration**: Permanent, unless reversed by this spell.
-
-**Cost**:  10 (but only 6 to reverse an entombment).
-
-**Time to cast**: 3 seconds.
+| **Prerequisite**: :ref:`Magery 2 <magery>` and 5 Earth spells.
+| **Classes**: Regular; Resisted by HT
+| **Duration**: Permanent, unless reversed by this spell.
+| **Cost**:  10 (but only 6 to reverse an entombment).
+| **Time to cast**: 3 seconds.
 
 The earth instantly swallows the subject. He remains in suspended
 animation, in a tiny spherical chamber 50 feet underground, until rescued
@@ -864,13 +774,10 @@ Spell                                           Colleges                Requires
 Ignite Fire
 ===========
 
-**Prerequisite**: None
-
-**Classes**: Regular
-
-**Duration**: One second.
-
-**Cost**: Depends on the amount of heat desired:
+| **Prerequisite**: None
+| **Classes**: Regular
+| **Duration**: One second.
+| **Cost**: Depends on the amount of heat desired:
 
 1 – for an effect as though a match had been held to the subject: lights a
 candle, pipe, or tinder in one second.
@@ -901,13 +808,10 @@ fire to a living being! Once ignited, the fire burns normally.
 Create Fire
 ===========
 
-**Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
-
-**Classes**: Area
-
-**Duration**: 1 minute.
-
-**Base Cost**: 2; half that to maintain. Ordinary fires set by this spell do not
+| **Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
+| **Classes**: Area
+| **Duration**: 1 minute.
+| **Base Cost**: 2; half that to maintain. Ordinary fires set by this spell do not
 require maintenance.
 
 Fills the area of effect with fire that requires no fuel (if cast in midair, it
@@ -922,13 +826,10 @@ within rock, foes, etc.
 Shape Fire
 ==========
 
-**Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
-
-**Classes**: Area
-
-**Duration**: 1 minute.
-
-**Base Cost**: 2; half that to maintain.
+| **Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
+| **Classes**: Area
+| **Duration**: 1 minute.
+| **Base Cost**: 2; half that to maintain.
 
 Lets the caster control the shape of any flame. Each shape change requires
 a second of concentration. Once shaped, the flame keeps that shape
@@ -948,11 +849,9 @@ spread across three times its original area, it does 1/3 damage, and so on.
 Deflect Energy
 ==============
 
-**Prerequisite**: :ref:`Magery 2 <magery>` and :ref:`Shape Fire <shape_fire>`
-
-**Classes**: Blocking
-
-**Cost**: 1.
+| **Prerequisite**: :ref:`Magery 2 <magery>` and :ref:`Shape Fire <shape_fire>`
+| **Classes**: Blocking
+| **Cost**: 1.
 
 Deflects one energy attack about to hit the subject – including a beam
 weapon attack or a Fireball or Lightning spell. Counts as a parry for
@@ -966,13 +865,10 @@ for a Regular spell. Deflected attacks may still hit a target beyond the subject
 Extinguish Fire
 ===============
 
-**Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
-
-**Classes**: Area
-
-**Duration**: Once out, a fire stays out.
-
-**Base Cost**: 3.
+| **Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
+| **Classes**: Area
+| **Duration**: Once out, a fire stays out.
+| **Base Cost**: 3.
 
 Puts out all ordinary and magical fires in its area of effect. Has no effect
 on molten steel, lava, plasma, etc.
@@ -984,19 +880,15 @@ on molten steel, lava, plasma, etc.
 Heat
 ====
 
-**Prerequisite**: :ref:`Create Fire <create_fire>` and :ref:`Shape Fire <shape_fire>`
-
-**Classes**: Regular
-
-**Duration**: 1 minute. Each minute raises the target’s temperature by 20°.
+| **Prerequisite**: :ref:`Create Fire <create_fire>` and :ref:`Shape Fire <shape_fire>`
+| **Classes**: Regular
+| **Duration**: 1 minute. Each minute raises the target’s temperature by 20°.
 Maximum temperature possible with this spell is 2,800°.
-
-**Cost**: 1 for an object up to the size of a fist, 2 for an object up to one cubic
+| **Cost**: 1 for an object up to the size of a fist, 2 for an object up to one cubic
 yard, and 2 per cubic yard for a larger object. Temperature change can be
 doubled to 40° per minute for double cost, tripled to 60°  per minute for
 triple cost, and so on. Slower heating costs no less. Same cost to maintain.
-
-**Time to cast**: 1 minute.
+| **Time to cast**: 1 minute.
 
 This spell raises the temperature of an object. It does not necessarily produce
 fire, though most things burn if heated enough. Heat radiates away
@@ -1015,9 +907,8 @@ the bars ... but the radiated heat would probably broil you first.
 Cold
 ====
 
-**Prerequisite**: :ref:`Heat <heat>`
-
-**Classes**: Regular
+| **Prerequisite**: :ref:`Heat <heat>`
+| **Classes**: Regular
 
 Duration, Cost, and Time to cast: As for :ref:`Heat <heat>`, except each minute
 lowers the target’s temperature by 20°.
@@ -1032,13 +923,10 @@ of any object to absolute zero, if maintained for long enough.
 Resist Cold
 ===========
 
-**Prerequisite**: :ref:`Heat <heat>`
-
-**Classes**: Regular
-
-**Duration**: 1 minute.
-
-**Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist cold of
+| **Prerequisite**: :ref:`Heat <heat>`
+| **Classes**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist cold of
 -40° or more; cost triples if subject must resist the cold of absolute zero.
 
 The subject (person, creature, or object) and anything he carries
@@ -1052,13 +940,10 @@ magical ice spears, etc.).
 Resist Fire
 ===========
 
-**Prerequisite**: :ref:`Extinguish Fire <extinguish_fire>` and :ref:`Cold <cold>`
-
-**Classes**: Regular
-
-**Duration**: 1 minute.
-
-**Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist a blast
+| **Prerequisite**: :ref:`Extinguish Fire <extinguish_fire>` and :ref:`Cold <cold>`
+| **Classes**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist a blast
 furnace or volcano; cost triples if subject must resist the heat of a star,
 nuclear bomb, etc. Only the first level of protection is necessary against
 combat-type Fire spells.
@@ -1073,15 +958,12 @@ become immune to the effects of heat and fire (but not electricity).
 Fireball
 ========
 
-**Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Create Fire <create_fire>`
+| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Create Fire <create_fire>`
 and :ref:`Shape Fire <shape_fire>`
-
-**Classes**: Missile
-
-**Cost**: Any amount up to your Magery level per second, for three seconds.
+| **Classes**: Missile
+| **Cost**: Any amount up to your Magery level per second, for three seconds.
 The fireball does 1d burning damage per energy point.
-
-**Time to cast**: 1 to 3 seconds.
+| **Time to cast**: 1 to 3 seconds.
 
 Lets the caster throw a ball of fire from his hand. This has 1/2D 25, Max
 50, Acc 1. When it strikes something, it vanishes in a puff of flame. This spell is
@@ -1093,14 +975,11 @@ likely to ignite flammable targets.
 Explosive Fireball
 ==================
 
-**Prerequisite**: :ref:`Fireball <fireball>`
-
-**Classes**: Missile
-
-**Cost**: Any amount up to twice your Magery level per second, for three seconds.
+| **Prerequisite**: :ref:`Fireball <fireball>`
+| **Classes**: Missile
+| **Cost**: Any amount up to twice your Magery level per second, for three seconds.
 The fireball does 1d burning damage per full 2 points of energy.
-
-**Time to cast**: 1 to 3 seconds.
+| **Time to cast**: 1 to 3 seconds.
 
 Creates a fireball that affects both its target and things nearby. This has
 1/2D 25, Max 50, Acc 1. Can be thrown at a wall, floor, etc. (at +4 to hit) to
@@ -1126,15 +1005,12 @@ Spell                                           Colleges                Requires
 Planar Summons
 ==============
 
-**Prerequisite**: :ref:`Magery 1 <magery>` and at least one
-
-**Classes**: Special
-
-**Cost**: 1 point per 10 character points used to build the summoned entity.
+| **Prerequisite**: :ref:`Magery 1 <magery>` and at least one
+| **Classes**: Special
+| **Cost**: 1 point per 10 character points used to build the summoned entity.
 Minimum energy cost is 20 (although this will not always sum-mon a 200-point being).
 The GM secretly determines the capabilities of all summoned creatures
-
-**Time to cast**: 5 minutes.
+| **Time to cast**: 5 minutes.
 
 Summons a creature, such as a demon or a Thing Man Was Not Meant To Know, from another
 plane of existence. The GM determines the predisposition and abilities of this being.
@@ -1160,15 +1036,11 @@ alien entities might react in disturbing and unpredictable ways.
 Plane Shift (VH)
 ================
 
-**Prerequisite**: Planar Summons for the same plane.
-
-**Classes**: Special
-
-**Duration**: Permanent.
-
-**Cost**: 20.
-
-**Time to cast**: 5 seconds.
+| **Prerequisite**: Planar Summons for the same plane.
+| **Classes**: Special
+| **Duration**: Permanent.
+| **Cost**: 20.
+| **Time to cast**: 5 seconds.
 
 This spell bodily transports the caster – along with anything he is carrying (up to Heavy encumbrance)
 – to a particular plane of existence. Each plane requires its own Plane Shift spell. This is a one-way
@@ -1210,9 +1082,8 @@ Spell                                           Colleges                Requires
 Lend Energy
 ===========
 
-**Prerequisite**: :ref:`Magery 1 <magery>` or Empathy.
-
-**Classes**: Regular
+| **Prerequisite**: :ref:`Magery 1 <magery>` or Empathy.
+| **Classes**: Regular
 
 Restores the subject’s lost Fatigue
 Points, at an energy cost to the caster.
@@ -1231,13 +1102,10 @@ Lend Vitality
 =============
 
 
-**Prerequisite**: :ref:`Lend Energy <lend_energy>`
-
-**Classes**: Regular
-
-**Duration**: 1 hour.
-
-**Cost**: Any amount; the energy spent by the caster goes to the subject as
+| **Prerequisite**: :ref:`Lend Energy <lend_energy>`
+| **Classes**: Regular
+| **Duration**: 1 hour.
+| **Cost**: Any amount; the energy spent by the caster goes to the subject as
 restored HP (e.g., if the caster spends 5 energy, the subject regains 5 lost
 HP). Casting cost is not reduced by high skill. *Cannot be maintained; must be recast.*
 
@@ -1251,11 +1119,9 @@ this spell is only a stopgap measure.
 Recover Energy
 ==============
 
-**Prerequisites**: :ref:`Magery 1 <magery>` and :ref:`Lend Energy <lend_energy>`
-
-**Classes**: Special
-
-**Cost**: None.
+| **Prerequisite**: :ref:`Magery 1 <magery>` and :ref:`Lend Energy <lend_energy>`
+| **Classes**: Special
+| **Cost**: None.
 
 
 This spell allows the caster to rest and recover Fatigue Points more
@@ -1275,11 +1141,9 @@ This spell does not function in low- or no-mana areas.
 Awaken
 ======
 
-**Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
-
-**Classes**: Area
-
-**Base Cost**: 1.
+| **Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
+| **Classes**: Area
+| **Base Cost**: 1.
 
 This spell renders the subject(s) awake and alert. It instantly counters
 the effects of stunning. If the subject is very fatigued (less than 1/3 basic
@@ -1294,11 +1158,9 @@ drugged.
 Minor Healing
 =============
 
-**Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
-
-**Classes**: Regular
-
-**Cost**: 1 to 3. The same amount is restored to the subject.
+| **Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
+| **Classes**: Regular
+| **Cost**: 1 to 3. The same amount is restored to the subject.
 
 Restores up to 3 HP to the subject. Does not eliminate disease or poison,
 but cures the damage they cause. This spell is risky when used more
@@ -1315,11 +1177,9 @@ spell more than once per day on the same subject.
 Major Healing (VH)
 ==================
 
-**Prerequisites**: :ref:`Magery 1 <magery>` and :ref:`Minor Healing <minor_healing>`
-
-**Classes**: Regular
-
-**Cost**: 1 to 4. Twice the amount spent is restored to the subject.
+| **Prerequisite**: :ref:`Magery 1 <magery>` and :ref:`Minor Healing <minor_healing>`
+| **Classes**: Regular
+| **Cost**: 1 to 4. Twice the amount spent is restored to the subject.
 
 Restores up to 8 HP to the subject. Does not eliminate disease or poison,
 but cures the damage they cause. Otherwise, this spell functions just
@@ -1336,14 +1196,11 @@ same subject in the same day at no penalty.
 Great Healing (VH)
 ==================
 
-**Prerequisites**: :ref:`Magery 3 <magery>` and :ref:`Major Healing <major_healing>`.
-
-**Classes**: Regular
-
-**Cost**: 20. One try per day per
+| **Prerequisite**: :ref:`Magery 3 <magery>` and :ref:`Major Healing <major_healing>`.
+| **Classes**: Regular
+| **Cost**: 20. One try per day per
 subject.
-
-**Time to cast**: 1 minute.
+| **Time to cast**: 1 minute.
 
 
 Restores all of the subject’s missing HP. Does not eliminate disease or poison,
@@ -1380,13 +1237,10 @@ Spell                                           Colleges                Requires
 Detect Magic
 ============
 
-**Prerequisite**: :ref:`Magery 1 <magery>`
-
-**Classes** : Regular
-
-**Cost**: 2
-
-**Time to cast**: 5 seconds
+| **Prerequisite**: :ref:`Magery 1 <magery>`
+| **Classes** : Regular
+| **Cost**: 2
+| **Time to cast**: 5 seconds
 
 
 Lets the caster determine whether any one object is magical. If the spell
@@ -1400,11 +1254,9 @@ Aura
 ====
 Information
 
-**Prerequisite**: :ref:`Detect Magic <detect_magic>`
-
-**Classes**: Information
-
-**Cost**: 3 (for any size subject).
+| **Prerequisite**: :ref:`Detect Magic <detect_magic>`
+| **Classes**: Information
+| **Cost**: 3 (for any size subject).
 
 Shows the caster a glowing halo, or “aura,” around the subject. This aura
 gives the caster a general insight into the subject’s personality – the better
@@ -1424,11 +1276,9 @@ casting of this spell distinguishes them from real persons.
 Seeker
 ======
 
-**Prerequisites**: :ref:`Magery 1 <magery>`, IQ 12+, and at least two “Seek” spells (e.g., :ref:`Seek Earth <seek_earth>` and :ref:`Seek Water <seek_water>`).
-
-**Classes**: Information
-
-**Cost**: 3. One try per week.
+| **Prerequisite**: :ref:`Magery 1 <magery>`, IQ 12+, and at least two “Seek” spells (e.g., :ref:`Seek Earth <seek_earth>` and :ref:`Seek Water <seek_water>`).
+| **Classes**: Information
+| **Cost**: 3. One try per week.
 
 **Modifiers**: Long-distance modifiers Something associated with
 the item sought (e.g., part of a lost person’s clothing) should be available at
@@ -1450,15 +1300,11 @@ but if you do, Seeker will find him.
 Trace
 =====
 
-**Prerequisite**: :ref:`Seeker <seeker>`
-
-**Classes**: Regular
-
-**Time to cast**: 1 minute.
-
-**Duration**: 1 hour.
-
-**Cost**: 3 to cast; 1 to maintain. One
+| **Prerequisite**: :ref:`Seeker <seeker>`
+| **Classes**: Regular
+| **Time to cast**: 1 minute.
+| **Duration**: 1 hour.
+| **Cost**: 3 to cast; 1 to maintain. One
 try per day.
 
 
@@ -1475,11 +1321,9 @@ successfully. Long-distance modifiers apply if subject is not in caster’s pres
 Identify Spell
 ==============
 
-**Prerequisite**: :ref:`Detect Magic <detect_magic>`
-
-**Classes**: Information
-
-**Cost**: 2.
+| **Prerequisite**: :ref:`Detect Magic <detect_magic>`
+| **Classes**: Information
+| **Cost**: 2.
 
 
 Lets the caster know what spell or spells have just been cast (within the
@@ -1497,13 +1341,10 @@ of new spells created by the GM or players.
 Analyze Magic
 =============
 
-**Prerequisite**: :ref:`Identify Spell <identify_spell>`
-
-**Classes**: Information; Resisted by spells that conceal magic
-
-**Cost**: 8.
-
-**Time to cast**: 1 hour.
+| **Prerequisite**: :ref:`Identify Spell <identify_spell>`
+| **Classes**: Information; Resisted by spells that conceal magic
+| **Cost**: 8.
+| **Time to cast**: 1 hour.
 
 
 Tells the caster exactly what spells are on the subject. If the subject has
@@ -1536,11 +1377,9 @@ Spell                                           Colleges                Requires
 Light
 =====
 
-**Duration**: 1 minute.
-
-**Classes**: Regular
-
-**Cost**: 1 to cast; 1 to maintain.
+| **Duration**: 1 minute.
+| **Classes**: Regular
+| **Cost**: 1 to cast; 1 to maintain.
 
 Produces a small light, like a candle flame. It stays still unless the caster
 concentrates on moving it; then it can travel at Move 5.
@@ -1551,14 +1390,11 @@ concentrates on moving it; then it can travel at Move 5.
 Continual Light
 ===============
 
-**Prerequisite**: :ref:`Light <light>`
-
-**Classes**: Regular
-
-**Duration**: Variable. Roll 2d for number of days. Does not count as a
+| **Prerequisite**: :ref:`Light <light>`
+| **Classes**: Regular
+| **Duration**: Variable. Roll 2d for number of days. Does not count as a
 spell “on.”
-
-**Cost**: 2 for a dim glow, 4 for the brightness of a fire, 6 for a glare so
+| **Cost**: 2 for a dim glow, 4 for the brightness of a fire, 6 for a glare so
 bright as to be painful at close range.
 
 When cast on a small object (up to fist-sized or 1 lb.) or a small part of a
@@ -1570,11 +1406,9 @@ Darkness
 ========
 Area
 
-**Prerequisite**: :ref:`Continual Light <continual_light>`
-
-**Duration**: 1 minute.
-
-**Base Cost**: 2 to cast; 1 to maintain.
+| **Prerequisite**: :ref:`Continual Light <continual_light>`
+| **Duration**: 1 minute.
+| **Base Cost**: 2 to cast; 1 to maintain.
 
 
 Cloaks the area of effect in pitch darkness. A person inside the area can
@@ -1593,13 +1427,10 @@ Blur
 ====
 Regular
 
-**Prerequisite**: :ref:`Darkness <darkness>`
-
-**Duration**: 1 minute.
-
-**Cost**: 1 to 5 to cast; the same to maintain.
-
-**Time to cast**: 2 seconds.
+| **Prerequisite**: :ref:`Darkness <darkness>`
+| **Duration**: 1 minute.
+| **Cost**: 1 to 5 to cast; the same to maintain.
+| **Time to cast**: 2 seconds.
 
 
 This spell makes the subject harder to see and therefore harder to hit with
@@ -1626,13 +1457,10 @@ Spell                                           Colleges                Requires
 Counterspell
 ============
 
-**Prerequisite**: Magery 1.
-
-**Classes**: Regular; Resisted by subject spell
-
-**Time to cast**: 5 seconds.
-
-**Cost**: Half that of the spell countered, not counting bonuses the other
+| **Prerequisite**: Magery 1.
+| **Classes**: Regular; Resisted by subject spell
+| **Time to cast**: 5 seconds.
+| **Cost**: Half that of the spell countered, not counting bonuses the other
 caster got for high skill.
 
 
@@ -1655,15 +1483,11 @@ to cancel it. You can cast multiple Counterspells to negate an Area spell piece 
 Dispel Magic
 ============
 
-**Prerequisites**: Counterspell and at least 12 other spells (any type).
-
-**Classes**: Area; Resisted by subject spells
-
-**Duration**: Dispelled magic is permanently gone.
-
-**Base Cost**: 3.
-
-**Time to cast**: 1 second for each energy point spent.
+| **Prerequisite**: Counterspell and at least 12 other spells (any type).
+| **Classes**: Area; Resisted by subject spells
+| **Duration**: Dispelled magic is permanently gone.
+| **Base Cost**: 3.
+| **Time to cast**: 1 second for each energy point spent.
 
 This spell, if successful, negates other spells within the area. It has no
 effect on enchanted items – just on spells. Each spell resists separately.
@@ -1698,13 +1522,10 @@ Spell                                           Colleges                Requires
 Foolishness
 ===========
 
-**Prerequisite**: IQ 12+.
-
-**Classes**: Regular; Resisted by Will
-
-**Duration**: 1 minute.
-
-**Cost**: 1 to 5 to cast; half that amount to maintain (round up).
+| **Prerequisite**: IQ 12+.
+| **Classes**: Regular; Resisted by Will
+| **Duration**: 1 minute.
+| **Cost**: 1 to 5 to cast; half that amount to maintain (round up).
 
 The subject suffers -1 to his IQ and IQ-based skills (including spells) for
 every point of energy put into the spell. The GM may also require an IQ
@@ -1716,15 +1537,11 @@ roll to remember complex things while under the influence of this spell.
 Forgetfulness
 =============
 
-**Prerequisites**: Magery 1 and Foolishness.
-
-**Classes**: Regular; Resisted by Will or
-skill
-
-**Duration**: 1 hour.
-
-**Cost**: 3 to cast; 3 to maintain.
-**Time to cast**: 10 seconds.
+| **Prerequisite**: Magery 1 and Foolishness.
+| **Classes**: Regular; Resisted by Will or skill
+| **Duration**: 1 hour.
+| **Cost**: 3 to cast; 3 to maintain.
+| **Time to cast**: 10 seconds.
 
 Causes the subject to forget one fact, skill, or spell temporarily. The
 skill or spell cannot be used while Forgetfulness is in effect. If (for
@@ -1805,31 +1622,27 @@ As Sleep, but can be cast over an area.
 
 Command
 =======
+| **Prerequisites**:  Magery 2 and Forgetfulness.
+| **Classes**: Blocking; Resisted by Will
+| **Cost**: 2.
+|
 
-Blocking; Resisted by Will
-Lets the caster give the subject one
-immediate command – a word and a
-gesture, or at most two words – which
-the subject must obey. If the subject is
-unable to fulfill the command imme-
-diately or on his next turn, the spell
-has no effect. Some examples:
-“Drop it!” – the subject drops what-
-ever he was holding.
-“Look!” – the subject looks in the
-direction the caster indicates.
-“Wait!” – the subject takes the Wait
-maneuver on his next turn.
-Cost: 2.
-Prerequisites: Forgetfulness. Magery 2
-and
+Lets the caster give the subject one immediate command – a word and a
+gesture, or at most two words – which the subject must obey. If the subject is
+unable to fulfill the command immediately or on his next turn, the spell
+has no effect.
+
+Some examples:
+ - “Drop it!” – the subject drops whatever he was holding.
+ - “Look!” – the subject looks in the direction the caster indicates.
+ - “Wait!” – the subject takes the Wait maneuver on his next turn.
+
 
 ********
 Movement
 ********
 
-These spells physically manipulate
-the subject or affect his movement
+These spells physically manipulate the subject or affect his movement
 abilities.
 
 =============================================== ======================= =========================================== ================================
@@ -1847,97 +1660,86 @@ Spell                                           Colleges                Requires
 
 Haste
 =====
-Regular
-Increases the subject’s Move and
-Dodge scores by up to 3.
-Duration: 1 minute.
-Cost: 2 to cast, and 1 to maintain,
-per point added to the subject’s Move
-and Dodge.
-Time to cast: 2 seconds.
+
+| **Classes**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 2 to cast, and 1 to maintain, per point added to the subject’s Move and Dodge.
+| **Time to cast**: 2 seconds.
+|
+
+Increases the subject’s Move and Dodge scores by up to 3.
+
 
 .. _hinder_:
 
 Hinder
 ======
 
-Regular; Resisted by HT
 Same as :ref:`Hinder <hinder>`
 
 .. _great_haste:
 
 Great Haste (VH)
 ================
-Regular
-Speeds the subject up a lot. In
-effect, the subject has one level of
-Altered Time Rate (p. 38) for the dura-
-tion of the spell.
-Duration: 10 seconds.
-Cost: 5. Cannot be maintained;
-must be recast. At the spell’s end, the
-subject also loses 5 FP (unless the cast-
-er was the subject).
-Time to cast: 3 seconds.
-Prerequisites: Magery 1, IQ 12+,
-and Haste.
+
+| **Prerequisites**: Magery 1, IQ 12+, and Haste.
+| **Classes**: Regular
+| **Duration**: 10 seconds.
+| **Cost**: 5. Cannot be maintained; must be recast. At the spell’s end, the subject also loses 5 FP (unless the caster was the subject).
+| **Time to cast**: 3 seconds.
+|
+
+Speeds the subject up a lot. In effect, the subject has one level of Altered Time Rate (p. 38) for the duration of the spell.
 
 .. _apportation:
 
 Apportation
 ===========
 
+| **Prerequisite**: Magery 1.
+| **Classest**: Regular; Resisted by Will
+| **Duration**: 1 minute.
+| **Cost**: 1 for an object up to 1 lb. in weight; 2 for an object up to 10 lbs.; 3 for an object up to 50 lbs.; 4 for an object up to 200 lbs.;
+ and 4 for each additional 100 lbs. Cost to maintain is the same.
 
-Regular; Resisted by Will
-Lets the caster move physical
-objects without touching them. This
-spell levitates its subject at Move 1 –
-not fast enough to do damage with it.
-Living subjects get to resist with Will.
-Duration: 1 minute.
-Cost: 1 for an object up to 1 lb. in
-weight; 2 for an object up to 10 lbs.; 3
-for an object up to 50 lbs.; 4 for an
-object up to 200 lbs.; and 4 for each
-additional 100 lbs. Cost to maintain is
-the same.
-Prerequisite: Magery 1.
+Lets the caster move physical objects without touching them. This spell levitates its subject at Move 1 –
+not fast enough to do damage with it. Living subjects get to resist with Will.
+
 
 .. _lockmaster:
 
 Lockmaster
 ==========
 
-Regular; Resisted by Magelock
-Opens locks magically. A Magelock
-spell gets a roll to resist Lockmaster.
-Any modifiers for the difficulty of the
-lock that would apply Lockpicking
-skill also affect this spell.
-Duration: Once opened, a lock
+| **Prerequisite**s: Magery 2 and Apportation.
+| **Classest**: Regular; Resisted by Magelock
+| **Duration**: Once opened, a lock
 stays open until closed.
-Cost: 3. Cannot be maintained.
-Time to cast: 10 seconds.
-Prerequisites: Magery 2 and
-Apportation.
+| **Cost**: 3. Cannot be maintained.
+| **Time to cast**: 10 seconds.
+
+Opens locks magically. A Magelock spell gets a roll to resist Lockmaster.
+Any modifiers for the difficulty of the lock that would apply Lockpicking
+skill also affect this spell.
+
+
 
 .. _deflect_missile:
 
 Deflect Missile
 ===============
 
-Blocking
 
-Deflects one missile about to hit the
-subject – including any Missile spell.
-Counts as a parry for combat purpos-
-es. If the caster is not the subject,
-apply distance modifiers as for a
-Regular spell. Deflected attacks may
+| **Prerequisite**: Apportation.
+| **Classest**: Blocking
+| **Cost**: 1.
+
+Deflects one missile about to hit the subject – including any Missile spell.
+Counts as a parry for combat purposes. If the caster is not the subject,
+apply distance modifiers as for a Regular spell. Deflected attacks may
 still hit a target beyond the subject.
 
-Cost: 1.
-Prerequisite: Apportation.
+
 
 ***********
 Necromantic
@@ -1965,202 +1767,155 @@ Spell                                           Colleges                Requires
 Death Vision
 ============
 
-Regular
-The subject sees a vivid presenti-
-ment of his own death. This might be
-a vision of the future or a false vision
-from another possible future – but it is
-always chilling. The subject is mental-
-ly stunned until he can make his IQ
+| **Prerequisite**: Magery 1.
+| **Classest**: Regular
+| **Duration**: 1 second.
+| **Cost**: 2.
+| **Time to cast**: 3 seconds.
+
+
+The subject sees a vivid presentiment of his own death. This might be
+a vision of the future or a false vision from another possible future – but it is
+always chilling. The subject is mentally stunned until he can make his IQ
 roll to shake off the effects of the spell.
-This spell can also be useful to the sub-
-ject, by pointing out a possibly deadly
-hazard.
-Duration: 1 second.
-Cost: 2.
-Time to cast: 3 seconds.
-Prerequisite: Magery 1.
+
+This spell can also be useful to the subject, by pointing out a possibly deadly hazard.
+
 
 .. _sense_spirit:
 
 Sense Spirit
 ============
 
+| **Prerequisite**: Death Vision.
 Information; Area
-Tells the caster if there are any
-ghosts, spirits, undead, or similar
-supernatural entities within the area
-of effect. On a good roll, it gives a gen-
-eral impression of what kind of being
-is present. Caster may, at the time of
-casting, limit the spell to a specific
-type of entity, or exclude a given type.
-Base Cost: 1/2.
-Prerequisite: Death Vision.
+| **Base Cost**: 1/2.
+
+Tells the caster if there are any ghosts, spirits, undead, or similar
+supernatural entities within the area of effect. On a good roll, it gives a general
+impression of what kind of being is present. Caster may, at the time of
+casting, limit the spell to a specific type of entity, or exclude a given type.
+
 
 .. _summon_spirit:
 
 Summon Spirit
 =============
 
-Information; Resisted by
-spirit’s Will
-Lets the caster talk to the spirit of a
-dead person. The subject resists at -5 if
-he was a friend of the caster. If the
-spell succeeds, the subject will answer
-one question, to the best of his knowl-
-edge as of the time he died, and one
+| **Prerequisite**s: Magery 2 and Death Vision.
+Information; Resisted by spirit’s Will
+| **Duration**: 1 minute.
+| **Cost**: 20 to cast; 10 to maintain. Halve these costs if the spell is cast at
+the site of death or over the corpse of the person being contacted.
+| **Time to cast**: 5 minutes.
+
+
+Lets the caster talk to the spirit of a dead person. The subject resists at -5 if
+he was a friend of the caster. If the spell succeeds, the subject will answer
+one question, to the best of his knowledge as of the time he died, and one
 more per minute he remains.
-If the spell fails, that caster (or cer-
-emonial group) may not summon that
-spirit again for one year. A critical fail-
-ure means the caster summoned a
+
+If the spell fails, that caster (or ceremonial group) may not summon that
+spirit again for one year. A critical failure means the caster summoned a
 malign spirit, who lies deliberately.
-Modifiers: -5 if you don’t know the
-subject’s full name. -1 if it has been
-more than a week since the subject’s
-death, -2 if more than a month, -3 if
-more than a year, -4 if more than 10
-years, -5 if more than 50 years, and -6
+
+Modifiers: -5 if you don’t know the subject’s full name. -1 if it has been
+more than a week since the subject’s death, -2 if more than a month, -3 if
+more than a year, -4 if more than 10 years, -5 if more than 50 years, and -6
 if more than 500 years.
-Duration: 1 minute.
-Cost: 20 to cast; 10 to maintain.
-Halve these costs if the spell is cast at
-the site of death or over the corpse of
-the person being contacted.
-Time to cast: 5 minutes.
-Prerequisites: Magery 2 and Death
-Vision.
 
 .. _zombie:
 
 Zombie
 ======
 
-Regular
-The subject of this spell must be a
-relatively complete dead body. The
-condition of the corpse determines the
-result: a fresh body produces a zom-
-bie, a skeleton produces an animated
-skeleton, and an old, dry body pro-
-duces a walking mummy. The animat-
-ed corpse becomes an undead servant
-of the caster. It attributes are based on
-those of the original body, as are its
-physical advantages and DX-based
-skills. It does not have the “soul,” men-
-tal traits, IQ-based skills, or memories
-of the living person. The GM
-determines its exact abilities, as
-appropriate to the campaign.
-Duration: The zombie remains ani-
-mated until destroyed.
-Cost: 8, multiplied by 1 + SM for
-creatures larger than human-sized.
-Time to cast: 1 minute.
-Prerequisites: Summon Spirit and
-Lend Vitality.
+| **Prerequisite**s: Summon Spirit and Lend Vitality.
+| **Classest**: Regular
+| **Duration**: The zombie remains animated until destroyed.
+| **Cost**: 8, multiplied by 1 + SM for creatures larger than human-sized.
+| **Time to cast**: 1 minute.
+
+
+The subject of this spell must be a relatively complete dead body. The
+condition of the corpse determines the result: a fresh body produces a zom-
+bie, a skeleton produces an animated skeleton, and an old, dry body produces
+a walking mummy. The animated corpse becomes an undead servant
+of the caster. It attributes are based on those of the original body, as are its
+physical advantages and DX-based skills. It does not have the “soul,” mental
+traits, IQ-based skills, or memories of the living person. The GM determines
+its exact abilities, as appropriate to the campaign.
+
 
 .. _turn_zombie:
 
 Turn Zombie
 ===========
-Area
-Inflicts 1d of injury on anything in
-the area that was animated using the
-Zombie spell; DR does not protect. In
-addition, roll 1d for each zombie. On a
+
+| **Prerequisite**: Zombie. (This spell is common among those who have Power Investiture.)
+| **Classest**: Area
+| **Duration**: Successfully turned undead will avoid the caster for one day.
+| **Base Cost**: 2. Cannot be maintained; must be recast.
+| **Time to cast**: 4 seconds.
+
+
+Inflicts 1d of injury on anything in the area that was animated using the
+Zombie spell; DR does not protect. In addition, roll 1d for each zombie. On a
 1, it turns and flees from the caster.
-Duration: Successfully turned
-undead will avoid the caster for one
-day.
-Base Cost: 2. Cannot be main-
-tained; must be recast.
-Time to cast: 4 seconds.
-Prerequisite: Zombie. (This spell is
-common among those who have
-Power Investiture.)
+
+
 
 .. _summon_demon:
 
 Summon Demon
 ============
 
-Special
-This is the version of Planar
-Summons (p. 247) that raises demons;
-see that spell description for details. If
-the caster fails to control the demon, it
-always attacks him! If he manages to
-control the demon and give it a com-
-mand, the demon carries out the letter
-of its orders, doing its best to pervert
-their spirit to the caster’s disfavor. It
-also works incidental mischief, unless
+| **Prerequisite**s: Magery 1 and at least one spell from each of 10 different colleges.
+| **Classest**: Special
+| **Time to cast**: 5 minutes.
+| **Duration**: Until the demon’s task is done, or one hour, whichever is less.
+| **Cost**: 1 point per 10 character points used to build the demon.
+Minimum energy cost is 20 (although this will not always summon a 200-
+point being). Those tempted to summon powerful demons should bear in
+mind that such demons tend to have high Will, with all that implies for control ...
+
+This is the version of Planar Summons that raises demons;
+see that spell description for details. If the caster fails to control the demon, it
+always attacks him! If he manages to control the demon and give it a command,
+the demon carries out the letter of its orders, doing its best to pervert
+their spirit to the caster’s disfavor. It also works incidental mischief, unless
 specifically instructed not to.
-Duration: Until the demon’s task is
-done, or one hour, whichever is less.
-Cost: 1 point per 10 character
-points used to build the demon.
-Minimum energy cost is 20 (although
-this will not always summon a 200-
-point being). Those tempted to sum-
-mon powerful demons should bear in
-mind that such demons tend to have
-high Will, with all that implies for con-
-trol . . .
-Time to cast: 5 minutes.
-Prerequisites: Magery 1 and at least
-one spell from each of 10 different
-colleges.
+
 
 .. _banish:
 
 Banish
 ======
 
-Special; Resisted by Will
-This spell sends an extradimen-
-sional visitor (e.g., a demon) back to
-its plane of origin. It can only be cast
-if the caster is in his home dimension.
-In an alien plane, you could not “ban-
-ish” yourself back home, but a native
-of that plane could banish you. This
-spell does not work on a creature that
-is already in its home dimension.
-Resolve the Banish attempt as a
-Quick Contest: the caster’s Banish skill
-vs. the subject’s Will. If the caster wins,
-the subject immediately returns to its
-home plane. It cannot return for one
-month. Anything that it brought with
-it when it appeared (e.g., weapons)
-vanishes with it. Other things it may
-be carrying (e.g., screaming victims)
-stay behind.
-Note that certain powerful crea-
-tures are resistant or even immune to
-this spell.
-Modifiers: +4 if the caster knows
-the entity’s “true name”; -5 if the cast-
-er does not know the subject’s plane of
-origin . . . and an extra -1 if he believes
-he knows where the creature came
-from, but is wrong!
-Cost: 1 point per 10 character
-points the subject is worth. Minimum
-energy cost is 10. The caster does not
-know in advance how much energy
-the spell will require, and may fall
-unconscious or even wound himself in
+| **Prerequisite**s: Magery 1 and at least one spell from each of 10 different colleges.
+| **Classest**: Special; Resisted by Will
+| **Cost**: 1 point per 10 character points the subject is worth. Minimum
+energy cost is 10. The caster does not know in advance how much energy
+the spell will require, and may fall unconscious or even wound himself in
 casting the Banish.
-Time to cast: 5 seconds.
-Prerequisites: Magery 1 and at least
-one spell from each of 10 different col-
-leges.
+| **Time to cast**: 5 seconds.
+Modifiers: +4 if the caster knows the entity’s “true name”; -5 if the cast-
+er does not know the subject’s plane of origin ... and an extra -1 if he believes
+he knows where the creature came from, but is wrong!
+
+This spell sends an extradimensional visitor (e.g., a demon) back to
+its plane of origin. It can only be cast if the caster is in his home dimension.
+In an alien plane, you could not “banish” yourself back home, but a native
+of that plane could banish you. This spell does not work on a creature that
+is already in its home dimension.
+
+Resolve the Banish attempt as a Quick Contest: the caster’s Banish skill
+vs. the subject’s Will. If the caster wins, the subject immediately returns to its
+home plane. It cannot return for one month. Anything that it brought with
+it when it appeared (e.g., weapons) vanishes with it. Other things it may
+be carrying (e.g., screaming victims) stay behind. Note that certain powerful creatures
+are resistant or even immune to this spell.
+
+
 
 
 **********************
@@ -2179,64 +1934,55 @@ Spell                                           Colleges                Requires
 
 Shield
 ======
-Regular
-Conjures an invisible shield of
-magicaв  force that moves to protect
-the subject from frontal attacks. The
-Defense Bonus granted by this spell is
-cumulative with that from an actual
-shield, but this spell does not allow a
+
+| **Prerequisite**: Magery 2.
+| **Classest**: Regular
+| **Duration**: 1 minute.
+| **Cost**: Twice the Defense Bonus given to the subject, to a maximum DB of 4 (cost 8); half that to maintain.
+
+Conjures an invisible shield of magicaв  force that moves to protect
+the subject from frontal attacks. The Defense Bonus granted by this spell is
+cumulative with that from an actual shield, but this spell does not allow a
 subject without a shield to block.
-Duration: 1 minute.
-Cost: Twice the Defense Bonus
-given to the subject, to a maximum
-DB of 4 (cost 8); half that to maintain.
-Prerequisite: Magery 2.
 
 .. _armor:
 
 Armor
 =====
-Regular
-Adds to the Damage Resistance of
-a living subject. DR from this spell is
-treated for all purposes like DR from
-armor, and is cumulative with that
+
+| **Prerequisite**s: Magery 2 and Shield.
+| **Classest**: Regular
+| **Duration**: 1 minute.
+| **Cost**: Twice the Damage Resistance given to the subject, to a maximum
+DR of 5 (cost 10); half that to maintain.
+
+Adds to the Damage Resistance of a living subject. DR from this spell is
+treated for all purposes like DR from armor, and is cumulative with that
 from actual armor.
-Duration: 1 minute.
-Cost: Twice the Damage Resistance
-given to the subject, to a maximum
-DR of 5 (cost 10); half that to main-
-tain.
-Prerequisites: Magery 2 and Shield.
+
 
 .. _magelock:
 
 Magelock
 ========
 
-Regular;
-Resists Lockmaster spell
-Locks a door magically. The door
-will not open unless the spell is
-removed
-(Counterspell
-and
-Lockmaster are both able to counter
+| **Prerequisite**: Magery 1.
+| **Classest**: Regular; Resists Lockmaster spell
+| **Duration**: 6 hours.
+| **Cost**: 3 to cast; 2 to maintain.
+| **Time to cast**: 4 seconds.
+
+
+Locks a door magically. The door will not open unless the spell is
+removed (Counterspell and Lockmaster are both able to counter
 it) or the door itself is destroyed.
-Duration: 6 hours.
-Cost: 3 to cast; 2 to maintain.
-Time to cast: 4 seconds.
-Prerequisite: Magery 1.
 
 *****
 Water
 *****
 
-These spells deal with the tradi-
-tional magical “element” of water.
-Except as noted, none of these spells
-affect the water in a human body or
+These spells deal with the traditional magical “element” of water.
+Except as noted, none of these spells affect the water in a human body or
 any other living creature.
 
 =============================================== ======================= =========================================== ================================
@@ -2257,77 +2003,64 @@ Spell                                           Colleges                Requires
 Seek Water
 ==========
 
-Information
-This spell lets the caster determine
-the direction, distance, and general
-nature of the nearest significant
-source of water. Use the long-distance
-modifiers (p. 241). Any known sources
-of water may be excluded if the caster
-specifically mentions them before
-beginning. Requires a forked stick;
+| **Classest**: Information
+
+
+This spell lets the caster determine the direction, distance, and general
+nature of the nearest significant source of water. Use the long-distance
+modifiers (p. 241). Any known sources of water may be excluded if the caster
+specifically mentions them before beginning. Requires a forked stick;
 roll at -3 if this is not available.
 
 .. _purify_water:
 
 Purify Water
 ============
-Special
 
-Lets the caster remove all impuri-
-ties from water by pouring it through
-any hoop or ring (or, in a pinch, his
-own fingers) into a container. Only
-one skill roll is required, as long as the
-flow continues.
+| **Prerequisite**: Seek Water.
+| **Classest**: Special
+| **Duration**: Purified water stays pure unless re-contaminated.
+| **Cost**: 1 per gallon purified.
+| **Time to cast**: Usually 5 to 10 seconds per gallon, unless a large container and ring are used.
 
-Duration: Purified water stays pure
-unless re-contaminated.
-Cost: 1 per gallon purified.
-Time to cast: Usually 5 to 10 sec-
-onds per gallon, unless a large con-
-tainer and ring are used.
-Prerequisite: Seek Water.
+Lets the caster remove all impurities from water by pouring it through
+any hoop or ring (or, in a pinch, his own fingers) into a container. Only
+one skill roll is required, as long as the flow continues.
+
+
 
 .. _create_water:
 
 Create Water
 ============
-
-Regular
-Lets the caster create pure water
-out of nothing. This water may appear
-in any of several forms. It may appear
-within a container, or as a globe in
-midair (it falls immediately). Or it
-may appear as a dense mist of
-droplets; in this form, one gallon of
-water extinguishes all fires in a one-
-yard radius. Water cannot be created
-inside a foe to drown him!
-Duration: The created water is per-
+| **Prerequisite**: Purify Water.
+| **Classest**: Regular
+| **Duration**: The created water is per-
 manent.
-Cost: 2 per gallon created.
-Prerequisite: Purify Water.
+| **Cost**: 2 per gallon created.
+
+
+Lets the caster create pure water out of nothing. This water may appear
+in any of several forms. It may appear within a container, or as a globe in
+midair (it falls immediately). Or it may appear as a dense mist of
+droplets; in this form, one gallon of water extinguishes all fires in a one-yard
+radius. Water cannot be created inside a foe to drown him!
 
 .. _destroy_water:
 
 Destroy Water
 =============
+| **Prerequisite**: Create Water.
+| **Classest**: Area
+| **Duration**: Permanent.
+| **Base Cost**: 3. In deep water, the area is only 2 yards in height (or depth).
 
-Area
-Causes water (in any form) to van-
-ish, leaving a vacuum – or perhaps
-specks of dry impurities. If more
-water is all around, it rushes in to fill
-the hole. Good for drying things out,
-saving a drowning victim, etc. Cannot
-be used as a “dehydrating” attack on a
-foe.
-Duration: Permanent.
-Base Cost: 3. In deep water, the area
-is only 2 yards in height (or depth).
-Prerequisite: Create Water.
+
+Causes water (in any form) to vanish, leaving a vacuum – or perhaps
+specks of dry impurities. If more water is all around, it rushes in to fill
+the hole. Good for drying things out, saving a drowning victim, etc. Cannot
+be used as a “dehydrating” attack on a foe.
+
 
 .. _breathe_water_2:
 
@@ -2340,63 +2073,54 @@ Same as :ref:`Breathe water <breathe_water`>
 
 Shape Water
 ===========
-Regular
-Lets the caster sculpt water
-(including ice or steam) into any form,
-and even move it about. Once given a
-shape, the water holds it without fur-
-ther concentration until the spell ends.
-Water moved with this spell travels at
-Move 3.
-A useful shape is a wall of water to
-stop fiery attacks. Twenty gallons cre-
-ates a wall 2 yards high ¥ 1 yard wide.
-This stops Fireball spells and ordinary
-fire.
-Duration: 1 minute.
-Cost: 1 per 20 gallons shaped; same
-cost to maintain.
-Time to cast: 2 seconds.
-Prerequisite: Create Water.
+
+| **Prerequisite**: Create Water.
+| **Classest**: Regular
+| **Duration**: 1 minute.
+| **Cost**: 1 per 20 gallons shaped; same cost to maintain.
+| **Time to cast**: 2 seconds.
+
+
+Lets the caster sculpt water (including ice or steam) into any form,
+and even move it about. Once given a shape, the water holds it without further
+concentration until the spell ends. Water moved with this spell travels at
+Move 3. A useful shape is a wall of water to stop fiery attacks. Twenty gallons creates
+a wall 2 yards high ¥ 1 yard wide. This stops Fireball spells and ordinary fire.
+
 
 .. _fog:
 
 Fog
 ===
 
-Area
+| **Prerequisite**: Shape Water.
+| **Classest**: Area
+| **Duration**: 1 minute.
+| **Base Cost**: 2; half that to maintain.
 
-Creates an area of dense fog. Even
-one yard of fog blocks vision. Flaming
-weapons and missiles lose their extra
-power in fog. A Fireball loses 1 point of
-damage per yard of fog it must traverse
-(e.g., a 3d Fireball that crosses 5 yards
-of fog inflicts 3d-5 damage), while vic-
-tims of an Explosive Fireball may
-count each yard of fog as two yards of
-distance from the blast. However, no
+
+Creates an area of dense fog. Even one yard of fog blocks vision. Flaming
+weapons and missiles lose their extra power in fog. A Fireball loses 1 point of
+damage per yard of fog it must traverse (e.g., a 3d Fireball that crosses 5 yards
+of fog inflicts 3d-5 damage), while victims of an Explosive Fireball may
+count each yard of fog as two yards of distance from the blast. However, no
 amount of fog can extinguish a fire.
-Duration: 1 minute.
-Base Cost: 2; half that to maintain.
-Prerequisite: Shape Water.
+
 
 .. _icy_weapon:
 
 Icy Weapon
 ==========
 
-Causes any weapon to become
-freezing cold. This does not harm the
-user or the weapon, but an attack with
-the weapon does +2 damage to most
-foes if it penetrates DR. Multiply this
-bonus for any Vulnerability (p. 161) to
-ice or cold. Add this bonus to the final
-injury inflicted by the attack – for
-instance, an “impaling” icy attack is
-still only good for +2 damage, not +4.
-Duration: 1 minute.
-Cost: 3 to cast; 1 to maintain.
-Time to cast: 3 seconds.
-Prerequisite: Create Water.
+| **Prerequisite**: Create Water.
+| **Duration**: 1 minute.
+| **Cost**: 3 to cast; 1 to maintain.
+| **Time to cast**: 3 seconds.
+
+
+Causes any weapon to become freezing cold. This does not harm the
+user or the weapon, but an attack with the weapon does +2 damage to most
+foes if it penetrates DR. Multiply this bonus for any Vulnerability (p. 161) to
+ice or cold. Add this bonus to the final injury inflicted by the attack – for
+instance, an “impaling” icy attack is still only good for +2 damage, not +4.
+
