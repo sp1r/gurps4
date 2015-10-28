@@ -882,12 +882,8 @@ Heat
 
 | **Prerequisite**: :ref:`Create Fire <create_fire>` and :ref:`Shape Fire <shape_fire>`
 | **Classes**: Regular
-| **Duration**: 1 minute. Each minute raises the target’s temperature by 20°.
-Maximum temperature possible with this spell is 2,800°.
-| **Cost**: 1 for an object up to the size of a fist, 2 for an object up to one cubic
-yard, and 2 per cubic yard for a larger object. Temperature change can be
-doubled to 40° per minute for double cost, tripled to 60°  per minute for
-triple cost, and so on. Slower heating costs no less. Same cost to maintain.
+| **Duration**: 1 minute. Each minute raises the target’s temperature by 20°. Maximum temperature possible with this spell is 2,800°.
+| **Cost**: 1 for an object up to the size of a fist, 2 for an object up to one cubic yard, and 2 per cubic yard for a larger object. Temperature change can be doubled to 40° per minute for double cost, tripled to 60°  per minute for triple cost, and so on. Slower heating costs no less. Same cost to maintain.
 | **Time to cast**: 1 minute.
 
 This spell raises the temperature of an object. It does not necessarily produce
@@ -926,8 +922,7 @@ Resist Cold
 | **Prerequisite**: :ref:`Heat <heat>`
 | **Classes**: Regular
 | **Duration**: 1 minute.
-| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist cold of
--40° or more; cost triples if subject must resist the cold of absolute zero.
+| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist cold of -40° or more; cost triples if subject must resist the cold of absolute zero.
 
 The subject (person, creature, or object) and anything he carries
 become immune to the effects of cold and frostbite (but not falling ice,
@@ -943,10 +938,7 @@ Resist Fire
 | **Prerequisite**: :ref:`Extinguish Fire <extinguish_fire>` and :ref:`Cold <cold>`
 | **Classes**: Regular
 | **Duration**: 1 minute.
-| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist a blast
-furnace or volcano; cost triples if subject must resist the heat of a star,
-nuclear bomb, etc. Only the first level of protection is necessary against
-combat-type Fire spells.
+| **Cost**: 2 to cast; 1 to maintain. Cost doubles if subject must resist a blast furnace or volcano; cost triples if subject must resist the heat of a star, nuclear bomb, etc. Only the first level of protection is necessary against combat-type Fire spells.
 
 The subject (person, creature, or object) and anything he carries
 become immune to the effects of heat and fire (but not electricity).
@@ -961,8 +953,7 @@ Fireball
 | **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Create Fire <create_fire>`
 and :ref:`Shape Fire <shape_fire>`
 | **Classes**: Missile
-| **Cost**: Any amount up to your Magery level per second, for three seconds.
-The fireball does 1d burning damage per energy point.
+| **Cost**: Any amount up to your Magery level per second, for three seconds. The fireball does 1d burning damage per energy point.
 | **Time to cast**: 1 to 3 seconds.
 
 Lets the caster throw a ball of fire from his hand. This has 1/2D 25, Max
@@ -977,8 +968,7 @@ Explosive Fireball
 
 | **Prerequisite**: :ref:`Fireball <fireball>`
 | **Classes**: Missile
-| **Cost**: Any amount up to twice your Magery level per second, for three seconds.
-The fireball does 1d burning damage per full 2 points of energy.
+| **Cost**: Any amount up to twice your Magery level per second, for three seconds. The fireball does 1d burning damage per full 2 points of energy.
 | **Time to cast**: 1 to 3 seconds.
 
 Creates a fireball that affects both its target and things nearby. This has
@@ -1007,9 +997,7 @@ Planar Summons
 
 | **Prerequisite**: :ref:`Magery 1 <magery>` and at least one
 | **Classes**: Special
-| **Cost**: 1 point per 10 character points used to build the summoned entity.
-Minimum energy cost is 20 (although this will not always sum-mon a 200-point being).
-The GM secretly determines the capabilities of all summoned creatures
+| **Cost**: 1 point per 10 character points used to build the summoned entity. Minimum energy cost is 20 (although this will not always sum-mon a 200-point being). The GM secretly determines the capabilities of all summoned creatures
 | **Time to cast**: 5 minutes.
 
 Summons a creature, such as a demon or a Thing Man Was Not Meant To Know, from another
@@ -1105,9 +1093,7 @@ Lend Vitality
 | **Prerequisite**: :ref:`Lend Energy <lend_energy>`
 | **Classes**: Regular
 | **Duration**: 1 hour.
-| **Cost**: Any amount; the energy spent by the caster goes to the subject as
-restored HP (e.g., if the caster spends 5 energy, the subject regains 5 lost
-HP). Casting cost is not reduced by high skill. *Cannot be maintained; must be recast.*
+| **Cost**: Any amount; the energy spent by the caster goes to the subject as restored HP (e.g., if the caster spends 5 energy, the subject regains 5 lost HP). Casting cost is not reduced by high skill. *Cannot be maintained; must be recast.*
 
 Temporarily restores the subject’s lost Hit Points, at an energy cost to the
 caster. Cannot increase the subject’s HP score above its normal maximum.
@@ -1198,8 +1184,7 @@ Great Healing (VH)
 
 | **Prerequisite**: :ref:`Magery 3 <magery>` and :ref:`Major Healing <major_healing>`.
 | **Classes**: Regular
-| **Cost**: 20. One try per day per
-subject.
+| **Cost**: 20. One try per day per subject.
 | **Time to cast**: 1 minute.
 
 
@@ -1304,8 +1289,7 @@ Trace
 | **Classes**: Regular
 | **Time to cast**: 1 minute.
 | **Duration**: 1 hour.
-| **Cost**: 3 to cast; 1 to maintain. One
-try per day.
+| **Cost**: 3 to cast; 1 to maintain. One try per day.
 
 
 
@@ -1392,10 +1376,8 @@ Continual Light
 
 | **Prerequisite**: :ref:`Light <light>`
 | **Classes**: Regular
-| **Duration**: Variable. Roll 2d for number of days. Does not count as a
-spell “on.”
-| **Cost**: 2 for a dim glow, 4 for the brightness of a fire, 6 for a glare so
-bright as to be painful at close range.
+| **Duration**: Variable. Roll 2d for number of days. Does not count as a spell “on.”
+| **Cost**: 2 for a dim glow, 4 for the brightness of a fire, 6 for a glare so bright as to be painful at close range.
 
 When cast on a small object (up to fist-sized or 1 lb.) or a small part of a
 larger object, this spell makes that object glow with white light.
@@ -1460,8 +1442,7 @@ Counterspell
 | **Prerequisite**: Magery 1.
 | **Classes**: Regular; Resisted by subject spell
 | **Time to cast**: 5 seconds.
-| **Cost**: Half that of the spell countered, not counting bonuses the other
-caster got for high skill.
+| **Cost**: Half that of the spell countered, not counting bonuses the other caster got for high skill.
 
 
 This spell nullifies any one ongoing spell. It cannot “counter” spells that
