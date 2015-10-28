@@ -192,11 +192,7 @@ Predict Weather
 ===============
 
 | **Prerequisite**: At least four Air spells.
-
-| **Cost**: Twice the length of the forecast, in days. Double the cost for a
-location outside the general area (say, over the horizon). Quadruple the cost
-for a place on another continent. This spell cannot predict weather on other
-planets or planes.
+| **Cost**: Twice the length of the forecast, in days. Double the cost for a location outside the general area (say, over the horizon). Quadruple the cost for a place on another continent. This spell cannot predict weather on other planets or planes.
 | **Time to cast**: 5 seconds per day forecast.
 
 Lets the caster forecast the weather accurately for a given location over a
@@ -245,9 +241,7 @@ Earth to Air
 
 | **Prerequisite**: :ref:`Create Air <create_air>` and :ref:`Shape Earth <shape_earth>`
 | **Duration**: Permanent.
-| **Cost**: 1 to transform one cubic foot of earth/stone to air, giving enough air
-for one person to breathe for 1 minute. To transform larger quantities
-of earth/stone at once, the cost is 5 per cubic yard.
+| **Cost**: 1 to transform one cubic foot of earth/stone to air, giving enough air for one person to breathe for 1 minute. To transform larger quantities of earth/stone at once, the cost is 5 per cubic yard.
 | **Time to cast**: 2 seconds.
 
 This spell turns earth or stone into air, which can be valuable to someone
@@ -284,10 +278,8 @@ Lightning
 =========
 
 | **Prerequisite**: :ref:`Magery 1 <magery>` and at least six other Air spells.
-| **Cost**: Any amount up to your Magery level per second, for three seconds.
-The bolt does 1d-1 burning damage per energy point.
-| **Time to cast**: 1 to 3 seconds (the caster’s fingers sparkle as the spell
-builds up).
+| **Cost**: Any amount up to your Magery level per second, for three seconds. The bolt does 1d-1 burning damage per energy point.
+| **Time to cast**: 1 to 3 seconds (the caster’s fingers sparkle as the spell builds up).
 
 Lets the caster shoot a bolt of lightning from his fingertip.
 This has 1/2D 50, Max 100, Acc 3. Treat any metal
@@ -434,8 +426,7 @@ weapon is at -2 and his Dodge score is cut in half (round down).
 Paralyze Limb
 =============
 
-| **Prerequisite**: :ref:`Magery 1 <magery>` and five Body Control spells,
-including :ref:`Pain <pain>`
+| **Prerequisite**: :ref:`Magery 1 <magery>` and five Body Control spells, including :ref:`Pain <pain>`
 | **Classes**: Melee; Resisted by HT
 | **Duration**: 1 minute.
 | **Cost**: 3. Cannot be maintained; must be recast.
@@ -626,8 +617,7 @@ Shape Earth
 | **Prerequisite**: :ref:`Seek Earth <seek_earth>`
 | **Classes**: Regular
 | **Duration**: 1 minute.
-| **Cost**: 1 per cubic yard of earth shaped (minimum 2); half that to
-maintain (round up).
+| **Cost**: 1 per cubic yard of earth shaped (minimum 2); half that to maintain (round up).
 
 Lets the caster move earth and shape it into any form. If the form is
 stable (e.g., a hill), it remains permanently after shaping. An unstable form
@@ -669,8 +659,7 @@ Create Earth
 | **Prerequisite**: :ref:`Earth to Stone <earth_to_stone>`
 | **Classes**: Regular
 | **Duration**: Permanent.
-| **Cost**: 2 per cubic yard to create earth from nothingness (minimum 2);
-1 per cubic yard to solidify mud into good earth (minimum 1).
+| **Cost**: 2 per cubic yard to create earth from nothingness (minimum 2); 1 per cubic yard to solidify mud into good earth (minimum 1).
 
 Lets the caster create good, solid earth where none existed before. This
 earth must be created in contact with the ground – not hanging in the air or
@@ -714,8 +703,7 @@ cast on a whole stone or block, rather than a part of it.
 Stone to Flesh
 ==============
 
-| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Flesh to Stone <flesh_to_stone>`
-and :ref:`Stone to Earth <stone_to_earth>`
+| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Flesh to Stone <flesh_to_stone>` and :ref:`Stone to Earth <stone_to_earth>`
 | **Classes**: Regular
 | **Duration**: Permanent.
 | **Cost**: 10.
@@ -811,8 +799,7 @@ Create Fire
 | **Prerequisite**: :ref:`Ignite Fire <ignite_fire>`
 | **Classes**: Area
 | **Duration**: 1 minute.
-| **Base Cost**: 2; half that to maintain. Ordinary fires set by this spell do not
-require maintenance.
+| **Base Cost**: 2; half that to maintain. Ordinary fires set by this spell do not require maintenance.
 
 Fills the area of effect with fire that requires no fuel (if cast in midair, it
 produces a sphere of flame, which falls to the ground). This is real fire,
@@ -950,8 +937,7 @@ become immune to the effects of heat and fire (but not electricity).
 Fireball
 ========
 
-| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Create Fire <create_fire>`
-and :ref:`Shape Fire <shape_fire>`
+| **Prerequisite**: :ref:`Magery 2 <magery>`, :ref:`Create Fire <create_fire>` and :ref:`Shape Fire <shape_fire>`
 | **Classes**: Missile
 | **Cost**: Any amount up to your Magery level per second, for three seconds. The fireball does 1d burning damage per energy point.
 | **Time to cast**: 1 to 3 seconds.
@@ -1264,11 +1250,7 @@ Seeker
 | **Prerequisite**: :ref:`Magery 1 <magery>`, IQ 12+, and at least two “Seek” spells (e.g., :ref:`Seek Earth <seek_earth>` and :ref:`Seek Water <seek_water>`).
 | **Classes**: Information
 | **Cost**: 3. One try per week.
-
-**Modifiers**: Long-distance modifiers Something associated with
-the item sought (e.g., part of a lost person’s clothing) should be available at
-the time of casting; if not, roll at -5. The roll is at +1 if the caster has held
-or is otherwise familiar with the item sought.
+| **Modifiers**: Long-distance modifiers Something associated with the item sought (e.g., part of a lost person’s clothing) should be available at the time of casting; if not, roll at -5. The roll is at +1 if the caster has held or is otherwise familiar with the item sought.
 
 Attunes the caster to one individual or manmade object he is looking for. A
 success gives the caster a vision of the item’s whereabouts – or leads him to
@@ -1541,7 +1523,7 @@ Daze
 | **Duration**: 1 minute.
 | **Cost**: 3 to cast; 2 to maintain.
 | **Time to cast**: 2 seconds.
-|
+
 
 Subject looks and acts normal, but does not notice what is going on
 around him, and will not remember it later. A dazed guard will stand quietly
@@ -1560,7 +1542,7 @@ Mass Daze
 | **Cost**: 3 to cast; 2 to maintain.
 | **Time to cast**: 1 second for each energy point spent.
 | **Base Cost**: 2 to cast; 1 to maintain. Minimum radius 2 yards.
-|
+
 
 As Daze, but can be cast over an area.
 
@@ -1574,7 +1556,7 @@ Sleep
 | **Classes**: Regular; Resisted by HT
 | **Cost**: 4.
 | **Time to cast**: 3 seconds.
-|
+
 
 
 Subject falls asleep. If standing, he falls – but this does not wake him. He
@@ -1592,7 +1574,7 @@ Mass Sleep
 | **Classes**: Area; Resisted by HT
 | **Base Cost**: 3. Minimum radius 2 yards.
 | **Time to cast**: 1 second for each energy point spent.
-|
+
 
 
 As Sleep, but can be cast over an area.
@@ -1606,7 +1588,7 @@ Command
 | **Prerequisites**:  Magery 2 and Forgetfulness.
 | **Classes**: Blocking; Resisted by Will
 | **Cost**: 2.
-|
+
 
 Lets the caster give the subject one immediate command – a word and a
 gesture, or at most two words – which the subject must obey. If the subject is
@@ -1646,7 +1628,7 @@ Haste
 | **Duration**: 1 minute.
 | **Cost**: 2 to cast, and 1 to maintain, per point added to the subject’s Move and Dodge.
 | **Time to cast**: 2 seconds.
-|
+
 
 Increases the subject’s Move and Dodge scores by up to 3.
 
@@ -1668,7 +1650,7 @@ Great Haste (VH)
 | **Duration**: 10 seconds.
 | **Cost**: 5. Cannot be maintained; must be recast. At the spell’s end, the subject also loses 5 FP (unless the caster was the subject).
 | **Time to cast**: 3 seconds.
-|
+
 
 Speeds the subject up a lot. In effect, the subject has one level of Altered Time Rate (p. 38) for the duration of the spell.
 
@@ -1680,8 +1662,7 @@ Apportation
 | **Prerequisite**: Magery 1.
 | **Classest**: Regular; Resisted by Will
 | **Duration**: 1 minute.
-| **Cost**: 1 for an object up to 1 lb. in weight; 2 for an object up to 10 lbs.; 3 for an object up to 50 lbs.; 4 for an object up to 200 lbs.;
- and 4 for each additional 100 lbs. Cost to maintain is the same.
+| **Cost**: 1 for an object up to 1 lb. in weight; 2 for an object up to 10 lbs.; 3 for an object up to 50 lbs.; 4 for an object up to 200 lbs.;  and 4 for each additional 100 lbs. Cost to maintain is the same.
 
 Lets the caster move physical objects without touching them. This spell levitates its subject at Move 1 –
 not fast enough to do damage with it. Living subjects get to resist with Will.
@@ -1694,8 +1675,7 @@ Lockmaster
 
 | **Prerequisite**s: Magery 2 and Apportation.
 | **Classest**: Regular; Resisted by Magelock
-| **Duration**: Once opened, a lock
-stays open until closed.
+| **Duration**: Once opened, a lock stays open until closed.
 | **Cost**: 3. Cannot be maintained.
 | **Time to cast**: 10 seconds.
 
@@ -1768,8 +1748,7 @@ This spell can also be useful to the subject, by pointing out a possibly deadly 
 Sense Spirit
 ============
 
-| **Prerequisite**: Death Vision.
-Information; Area
+| **Prerequisite**: Death Vision. Information; Area
 | **Base Cost**: 1/2.
 
 Tells the caster if there are any ghosts, spirits, undead, or similar
@@ -1783,11 +1762,9 @@ casting, limit the spell to a specific type of entity, or exclude a given type.
 Summon Spirit
 =============
 
-| **Prerequisite**s: Magery 2 and Death Vision.
-Information; Resisted by spirit’s Will
+| **Prerequisite**s: Magery 2 and Death Vision. Information; Resisted by spirit’s Will
 | **Duration**: 1 minute.
-| **Cost**: 20 to cast; 10 to maintain. Halve these costs if the spell is cast at
-the site of death or over the corpse of the person being contacted.
+| **Cost**: 20 to cast; 10 to maintain. Halve these costs if the spell is cast at the site of death or over the corpse of the person being contacted.
 | **Time to cast**: 5 minutes.
 
 
@@ -1854,10 +1831,7 @@ Summon Demon
 | **Classest**: Special
 | **Time to cast**: 5 minutes.
 | **Duration**: Until the demon’s task is done, or one hour, whichever is less.
-| **Cost**: 1 point per 10 character points used to build the demon.
-Minimum energy cost is 20 (although this will not always summon a 200-
-point being). Those tempted to summon powerful demons should bear in
-mind that such demons tend to have high Will, with all that implies for control ...
+| **Cost**: 1 point per 10 character points used to build the demon. Minimum energy cost is 20 (although this will not always summon a 200-point being). Those tempted to summon powerful demons should bear inmind that such demons tend to have high Will, with all that implies for control ...
 
 This is the version of Planar Summons that raises demons;
 see that spell description for details. If the caster fails to control the demon, it
@@ -1874,14 +1848,9 @@ Banish
 
 | **Prerequisite**s: Magery 1 and at least one spell from each of 10 different colleges.
 | **Classest**: Special; Resisted by Will
-| **Cost**: 1 point per 10 character points the subject is worth. Minimum
-energy cost is 10. The caster does not know in advance how much energy
-the spell will require, and may fall unconscious or even wound himself in
-casting the Banish.
+| **Cost**: 1 point per 10 character points the subject is worth. Minimum energy cost is 10. The caster does not know in advance how much energy the spell will require, and may fall unconscious or even wound himself in casting the Banish.
 | **Time to cast**: 5 seconds.
-Modifiers: +4 if the caster knows the entity’s “true name”; -5 if the cast-
-er does not know the subject’s plane of origin ... and an extra -1 if he believes
-he knows where the creature came from, but is wrong!
+| **Modifiers**: +4 if the caster knows the entity’s “true name”; -5 if the caster does not know the subject’s plane of origin ... and an extra -1 if he believes he knows where the creature came from, but is wrong!
 
 This spell sends an extradimensional visitor (e.g., a demon) back to
 its plane of origin. It can only be cast if the caster is in his home dimension.
@@ -1934,8 +1903,7 @@ Armor
 | **Prerequisite**s: Magery 2 and Shield.
 | **Classest**: Regular
 | **Duration**: 1 minute.
-| **Cost**: Twice the Damage Resistance given to the subject, to a maximum
-DR of 5 (cost 10); half that to maintain.
+| **Cost**: Twice the Damage Resistance given to the subject, to a maximum DR of 5 (cost 10); half that to maintain.
 
 Adds to the Damage Resistance of a living subject. DR from this spell is
 treated for all purposes like DR from armor, and is cumulative with that
@@ -2016,8 +1984,7 @@ Create Water
 ============
 | **Prerequisite**: Purify Water.
 | **Classest**: Regular
-| **Duration**: The created water is per-
-manent.
+| **Duration**: The created water is permanent.
 | **Cost**: 2 per gallon created.
 
 
