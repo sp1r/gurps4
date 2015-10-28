@@ -1323,11 +1323,11 @@ Major Healing (VH)
 
 Restores up to 8 HP to the subject. Does not eliminate disease or poison,
 but cures the damage they cause. Otherwise, this spell functions just
-like Minor Healing: it is at -3 per casting on the same subject in one day,
+like :ref:`Minor Healing <minor_healing>`: it is at -3 per casting on the same subject in one day,
 and Physician skill at level 15 or higher mitigates the effects of a critical
 failure.
 
-The penalties for repeated casting accrue separately for Minor Healing
+The penalties for repeated casting accrue separately for :ref:`Minor Healing <minor_healing>`
 and Major Healing. For instance, a caster could cast both spells on the
 same subject in the same day at no penalty.
 
@@ -1336,7 +1336,7 @@ same subject in the same day at no penalty.
 Great Healing (VH)
 ==================
 
-**Prerequisites**: Magery 3 and Major Healing.
+**Prerequisites**: :ref:`Magery 3 <magery>` and :ref:`Major Healing <major_healing>`.
 
 **Classes**: Regular
 
@@ -1347,24 +1347,22 @@ subject.
 
 
 Restores all of the subject’s missing HP. Does not eliminate disease or poison,
-nor does it restore crippled or missing body parts, but it can heal HP lost to any of these things.
+nor does it restore crippled or missing body parts, but it can heal HP lost to any
+of these things.
 
-A given subject can only benefit from this spell once per day, whether cast by the same caster or by a differ
-ent caster each time.
+A given subject can only benefit from this spell once per day, whether cast by the same
+caster or by a differ ent caster each time.
 
-If you have the Physician skill at level 15 or higher, a critical failure with this spell counts only as an ordinary
-failure.
+If you have the Physician skill at level 15 or higher, a critical failure with this
+spell counts only as an ordinary failure.
 
 
 *********
 Knowledge
 *********
 
-These spells provide information.
-Duration is “instantaneous” unless
-noted otherwise – that is, the caster
-gets a flash of knowledge, not a
-continuing picture.
+These spells provide information. Duration is “instantaneous” unless
+noted otherwise – that is, the caster gets a flash of knowledge, not a continuing picture.
 
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
@@ -1381,20 +1379,20 @@ Spell                                           Colleges                Requires
 
 Detect Magic
 ============
-Regular
-**Prerequisite**: Magery 1.
 
-**Cost**: 2.
-**Time to cast**: 5 seconds.
+**Prerequisite**: :ref:`Magery 1 <magery>`
+
+**Classes** : Regular
+
+**Cost**: 2
+
+**Time to cast**: 5 seconds
 
 
-Lets the caster determine whether
-any one object is magical. If the spell
-is successful, a second casting tells
-whether the magic is temporary or
-permanent. A critical success on
-either roll fully identifies the spell, as
-for Analyze Magic.
+Lets the caster determine whether any one object is magical. If the spell
+is successful, a second casting tells whether the magic is temporary or
+permanent. A critical success on either roll fully identifies the spell, as
+for :ref:`Analyze Magic <analyze_magic>`.
 
 .. _aura:
 
@@ -1402,31 +1400,23 @@ Aura
 ====
 Information
 
-**Prerequisite**: Detect Magic.
+**Prerequisite**: :ref:`Detect Magic <detect_magic>`
+
+**Classes**: Information
 
 **Cost**: 3 (for any size subject).
 
-Shows the caster a glowing halo, or
-“aura,” around the subject. This aura
-gives the caster a general insight into
-the subject’s personality – the better
-the skill roll, the better the insight. The
-aura also shows whether the subject is
-a mage (and about how powerful);
-whether the subject is possessed or
-controlled in any way; and whether
-the subject is in the grip of any violent
-emotion. A critical success detects
-“secret” traits, such as lycanthropy,
-vampirism, and unnatural longevity.
-All living beings have auras; inani-
-mate things do not. A zombie is
-detectable by his faint, death-haunted
-aura, while a vampire retains the aura
-he had in life. Illusions and created
-beings have no aura, so a successful
-casting of this spell distinguishes them
-from real persons.
+Shows the caster a glowing halo, or “aura,” around the subject. This aura
+gives the caster a general insight into the subject’s personality – the better
+the skill roll, the better the insight. The aura also shows whether the subject is
+a mage (and about how powerful); whether the subject is possessed or controlled in any way; and whether
+the subject is in the grip of any violent emotion. A critical success detects
+“secret” traits, such as lycanthropy, vampirism, and unnatural longevity.
+
+All living beings have auras; inanimate things do not. A zombie is
+detectable by his faint, death-haunted aura, while a vampire retains the aura
+he had in life. Illusions and created beings have no aura, so a successful
+casting of this spell distinguishes them from real persons.
 
 .. _seeker:
 
@@ -1434,93 +1424,73 @@ from real persons.
 Seeker
 ======
 
-Information
+**Prerequisites**: :ref:`Magery 1 <magery>`, IQ 12+, and at least two “Seek” spells (e.g., :ref:`Seek Earth <seek_earth>` and :ref:`Seek Water <seek_water>`).
 
-**Prerequisites**: Magery 1, IQ 12+,
-and at least two “Seek” spells (e.g.,
-Seek Earth and Seek Water).
+**Classes**: Information
 
 **Cost**: 3. One try per week.
 
-Attunes the caster to one individual
-or manmade object he is looking for. A
-success gives the caster a vision of the
-item’s whereabouts – or leads him to
+**Modifiers**: Long-distance modifiers Something associated with
+the item sought (e.g., part of a lost person’s clothing) should be available at
+the time of casting; if not, roll at -5. The roll is at +1 if the caster has held
+or is otherwise familiar with the item sought.
+
+Attunes the caster to one individual or manmade object he is looking for. A
+success gives the caster a vision of the item’s whereabouts – or leads him to
 it, if it is within a mile.
 
-To seek a person, the caster must
-either know his name or know him
-well enough to visualize him. For
-instance, you cannot use this spell to
-solve a murder by seeking “the mur-
-derer” if you don’t know who that is –
+To seek a person, the caster must either know his name or know him
+well enough to visualize him. For instance, you cannot use this spell to
+solve a murder by seeking “the murderer” if you don’t know who that is –
 but if you do, Seeker will find him.
-Modifiers: Long-distance modifiers
-(p. 241). Something associated with
-the item sought (e.g., part of a lost per-
-son’s clothing) should be available at
-the time of casting; if not, roll at -5.
-The roll is at +1 if the caster has held
-or is otherwise familiar with the item
-sought.
 
 
 .. _trace:
 
 Trace
 =====
-Regular
 
-**Prerequisite**: Seeker.
+**Prerequisite**: :ref:`Seeker <seeker>`
+
+**Classes**: Regular
 
 **Time to cast**: 1 minute.
+
+**Duration**: 1 hour.
 
 **Cost**: 3 to cast; 1 to maintain. One
 try per day.
 
 
 
-May be cast on any object or living
-being. As long as the spell is main-
-tained, the caster will know where the
-subject is if he concentrates for a sec-
-ond. Either the subject must be with
-the caster when the spell is first cast,
-or the caster must first cast Seeker
-successfully. Long-distance modifiers
-(p. 241) apply if subject is not in
-caster’s presence.
-Duration: 1 hour.
+
+May be cast on any object or living being. As long as the spell is maintained, the caster will know where the
+subject is if he concentrates for a second. Either the subject must be with
+the caster when the spell is first cast, or the caster must first cast Seeker
+successfully. Long-distance modifiers apply if subject is not in caster’s presence.
+
 
 .. _identify_spell:
 
 Identify Spell
 ==============
-Information
 
-**Prerequisite**: Detect Magic.
+**Prerequisite**: :ref:`Detect Magic <detect_magic>`
+
+**Classes**: Information
 
 **Cost**: 2.
 
 
-Lets the caster know what spell or
-spells have just been cast (within the
-last five seconds), or are being cast at
-the moment, on or by the subject. It
-does not identify the spells on a per-
-manently enchanted item. One casting
-identifies all spells cast on or by the
-subject. However, if any of these spells
-are totally unknown to the caster – not
-just spells he doesn’t know, but spells
-he has never heard of – the GM should
-provide only a general, vague descrip-
-tion; e.g., “Some kind of physical pro-
-tection.” Wizards have heard of every
-spell in this list unless the GM rules
-that some are secret, but wizards have
-not heard of new spells created by the
-GM or players.
+Lets the caster know what spell or spells have just been cast (within the
+last five seconds), or are being cast at the moment, on or by the subject. It
+does not identify the spells on a permanently enchanted item. One casting
+identifies all spells cast on or by the subject. However, if any of these spells
+are totally unknown to the caster – not just spells he doesn’t know, but spells
+he has never heard of – the GM should provide only a general, vague description;
+e.g., “Some kind of physical protection.” Wizards have heard of every spell in
+this list unless the GM rules that some are secret, but wizards have not heard
+of new spells created by the GM or players.
 
 .. _analyze_magic:
 
