@@ -1499,34 +1499,27 @@ Analyze Magic
 
 **Prerequisite**: Identify Spell.
 
+**Classes**: Information; Resisted by spells that conceal magic
+
 **Cost**: 8.
 
 **Time to cast**: 1 hour.
 
-Information; Resisted by spells
-that conceal magic
-Tells the caster exactly what spells
-are on the subject. If the subject has
-more than one spell on it, Analyze
-Magic identifies the one that took the
-least energy and tells the caster “there
-are more spells.” It can then be cast
-again to determine the next spell, and
-so on. Like Identify Spell, above, it
-gives limited results when faced with a
-spell the caster has never heard of.
+
+Tells the caster exactly what spells are on the subject. If the subject has
+more than one spell on it, Analyze Magic identifies the one that took the
+least energy and tells the caster “there are more spells.” It can then be cast
+again to determine the next spell, and so on. Like Identify Spell, above, it
+gives limited results when faced with a spell the caster has never heard of.
 
 
 ******************
 Light and Darkness
 ******************
 
-These spells affect not just visible
-light, but also infrared and ultraviolet
-light. Spells that provide illumination
-allow those with Infravision and
-Ultravision to see, while spells that
-block ordinary vision also block those
+These spells affect not just visible light, but also infrared and ultraviolet
+light. Spells that provide illumination allow those with Infravision and
+Ultravision to see, while spells that block ordinary vision also block those
 senses.
 
 =============================================== ======================= =========================================== ================================
@@ -1543,38 +1536,33 @@ Spell                                           Colleges                Requires
 Light
 =====
 
-Regular
-
 **Duration**: 1 minute.
+
+**Classes**: Regular
 
 **Cost**: 1 to cast; 1 to maintain.
 
-Produces a small light, like a can-
-dle flame. It stays still unless the cast-
-er concentrates on moving it; then it
-can travel at Move 5.
+Produces a small light, like a candle flame. It stays still unless the caster
+concentrates on moving it; then it can travel at Move 5.
 
 
 .. _continual_light:
 
 Continual Light
 ===============
-Regular
 
-Prerequisite: Light.
+**Prerequisite**: Light.
 
-Duration: Variable. Roll 2d for
-number of days. Does not count as a
+**Classes**: Regular
+
+**Duration**: Variable. Roll 2d for number of days. Does not count as a
 spell “on.”
 
-Cost: 2 for a dim glow, 4 for the
-brightness of a fire, 6 for a glare so
+**Cost**: 2 for a dim glow, 4 for the brightness of a fire, 6 for a glare so
 bright as to be painful at close range.
 
-When cast on a small object (up to
-fist-sized or 1 lb.) or a small part of a
-larger object, this spell makes that
-object glow with white light.
+When cast on a small object (up to fist-sized or 1 lb.) or a small part of a
+larger object, this spell makes that object glow with white light.
 
 .. _darkness:
 
