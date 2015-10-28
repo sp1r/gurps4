@@ -1497,7 +1497,7 @@ of new spells created by the GM or players.
 Analyze Magic
 =============
 
-**Prerequisite**: Identify Spell.
+**Prerequisite**: :ref:`Identify Spell <identify_spell>`
 
 **Classes**: Information; Resisted by spells that conceal magic
 
@@ -1551,7 +1551,7 @@ concentrates on moving it; then it can travel at Move 5.
 Continual Light
 ===============
 
-**Prerequisite**: Light.
+**Prerequisite**: :ref:`Light <light>`
 
 **Classes**: Regular
 
@@ -1570,26 +1570,21 @@ Darkness
 ========
 Area
 
-**Prerequisite**: Continual Light.
+**Prerequisite**: :ref:`Continual Light <continual_light>`
 
 **Duration**: 1 minute.
 
 **Base Cost**: 2 to cast; 1 to maintain.
 
 
-Cloaks the area of effect in pitch
-darkness. A person inside the area can
-see out normally, but can see nothing
-else within the area. Those outside the
+Cloaks the area of effect in pitch darkness. A person inside the area can
+see out normally, but can see nothing else within the area. Those outside the
 area can see only darkness within.
-Thus, attacks out of darkness suffer no
-penalty, but attacks into darkness are
-at a penalty; see Visibility (p. 394) for
-combat rules.
 
-The Dark Vision advantage lets you
-see through a Darkness spell, but
-Night Vision and Infravision do not.
+Thus, attacks out of darkness suffer no penalty, but attacks into darkness are
+at a penalty; see Visibility for combat rules.
+
+The Dark Vision advantage lets you see through a Darkness spell, but Night Vision and Infravision do not.
 
 
 .. _blur:
@@ -1598,7 +1593,7 @@ Blur
 ====
 Regular
 
-**Prerequisite**: Darkness.
+**Prerequisite**: :ref:`Darkness <darkness>`
 
 **Duration**: 1 minute.
 
@@ -1607,20 +1602,16 @@ Regular
 **Time to cast**: 2 seconds.
 
 
-This spell makes the subject harder
-to see and therefore harder to hit with
-attacks. Each point of energy gives -1
-to the effective skill of any attack on
+This spell makes the subject harder to see and therefore harder to hit with
+attacks. Each point of energy gives -1 to the effective skill of any attack on
 the subject, to a maximum of -5.
 
 ****
 Meta
 ****
 
-These spells have to do with the
-structure of magic itself. They are
-spells about spells, or spells that affect
-other spells.
+These spells have to do with the structure of magic itself. They are
+spells about spells, or spells that affect other spells.
 
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
@@ -1635,38 +1626,28 @@ Spell                                           Colleges                Requires
 Counterspell
 ============
 
-**Regular**; Resisted by subject spell
-
 **Prerequisite**: Magery 1.
+
+**Classes**: Regular; Resisted by subject spell
 
 **Time to cast**: 5 seconds.
 
-**Cost**: Half that of the spell coun-
-tered, not counting bonuses the other
+**Cost**: Half that of the spell countered, not counting bonuses the other
 caster got for high skill.
 
 
-This spell nullifies any one ongoing
-spell. It cannot “counter” spells that
-make a permanent change in the world
-(e.g., Extinguish Fire, Flesh to Stone,
-or Zombie) and it cannot affect per-
-manently enchanted items, but it can
+This spell nullifies any one ongoing spell. It cannot “counter” spells that
+make a permanent change in the world (e.g., Extinguish Fire, Flesh to Stone,
+or Zombie) and it cannot affect permanently enchanted items, but it can
 counter spells cast using magic items.
-The “subject” of Counterspell may be
-either the subject of the spell to be
-countered or the person who cast that
-spell.
 
-Counterspell is a single spell – but
-to counter a given spell, you must also
-know that spell. Roll against the lower
-of your Counterspell skill or your skill
-with the spell being countered. You
-must win a Quick Contest with the tar-
-get spell to cancel it. You can cast mul-
-tiple Counterspells to negate an Area
-spell piece by piece.
+The “subject” of Counterspell may be either the subject of the spell to be
+countered or the person who cast that spell.
+
+Counterspell is a single spell – but to counter a given spell, you must also
+know that spell. Roll against the lower of your Counterspell skill or your skill
+with the spell being countered. You must win a Quick Contest with the target spell
+to cancel it. You can cast multiple Counterspells to negate an Area spell piece by piece.
 
 
 .. _dispel_magic:
@@ -1674,37 +1655,31 @@ spell piece by piece.
 Dispel Magic
 ============
 
-Area; Resisted by subject spells
+**Prerequisites**: Counterspell and at least 12 other spells (any type).
 
-This spell, if successful, negates
-other spells within the area. It has no
-effect on enchanted items – just on
-spells. Each spell resists separately.
+**Classes**: Area; Resisted by subject spells
 
-Dispel Magic is not selective! The cast-
-er need not know the spell(s) being
-dispelled. To nullify a specific spell
-without affecting others, use
-Counterspell.
-Duration: Dispelled magic is per-
-manently gone.
-Base Cost: 3.
-Time to cast: 1 second for each
-energy point spent.
-Prerequisites: Counterspell and at
-least 12 other spells (any type).
+**Duration**: Dispelled magic is permanently gone.
+
+**Base Cost**: 3.
+
+**Time to cast**: 1 second for each energy point spent.
+
+This spell, if successful, negates other spells within the area. It has no
+effect on enchanted items – just on spells. Each spell resists separately.
+
+Dispel Magic is not selective! The caster need not know the spell(s) being
+dispelled. To nullify a specific spell without affecting others, use Counterspell.
+
 
 
 ************
 Mind Control
 ************
 
-These spells have no effect on sub-
-jects that lack intelligence (IQ 0) or
-free will (in general, this means the
-Automaton meta-trait; see p. 263).
-Thus, they do not work on most
-golems, robots, zombies, etc.
+These spells have no effect on subjects that lack intelligence (IQ 0) or
+free will (in general, this means the Automaton meta-trait; see p. 263).
+Thus, they do not work on most golems, robots, zombies, etc.
 
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
@@ -1723,105 +1698,108 @@ Spell                                           Colleges                Requires
 Foolishness
 ===========
 
-Regular; Resisted by Will
+**Prerequisite**: IQ 12+.
 
-The subject suffers -1 to his IQ and
-IQ-based skills (including spells) for
-every point of energy put into the
-spell. The GM may also require an IQ
-roll to remember complex things
-while under the influence of this spell.
-Duration: 1 minute.
-Cost: 1 to 5 to cast; half that
-amount to maintain (round up).
-Prerequisite: IQ 12+.
+**Classes**: Regular; Resisted by Will
+
+**Duration**: 1 minute.
+
+**Cost**: 1 to 5 to cast; half that amount to maintain (round up).
+
+The subject suffers -1 to his IQ and IQ-based skills (including spells) for
+every point of energy put into the spell. The GM may also require an IQ
+roll to remember complex things while under the influence of this spell.
+
 
 .. _forgetfulness:
 
 Forgetfulness
 =============
 
-Regular; Resisted by Will or
+**Prerequisites**: Magery 1 and Foolishness.
+
+**Classes**: Regular; Resisted by Will or
 skill
 
-Causes the subject to forget one
-fact, skill, or spell temporarily. The
-skill or spell cannot be used while
-Forgetfulness is in effect. If (for
-instance) a forgotten spell is a prereq-
-uisite for other spells, the other spells
+**Duration**: 1 hour.
+
+**Cost**: 3 to cast; 3 to maintain.
+**Time to cast**: 10 seconds.
+
+Causes the subject to forget one fact, skill, or spell temporarily. The
+skill or spell cannot be used while Forgetfulness is in effect. If (for
+instance) a forgotten spell is a prerequisite for other spells, the other spells
 can still be used, at -2 to skill.
-Duration: 1 hour.
-Cost: 3 to cast; 3 to maintain.
-Time to cast: 10 seconds.
-Prerequisites: Magery 1 and Foolishness.
+
 
 .. _daze:
 
 Daze
 ====
-Regular; Resisted by HT
 
-Subject looks and acts normal, but
-does not notice what is going on
-around him, and will not remember it
-later. A dazed guard will stand quietly
-while a thief walks past! Any injury, or
-successful resistance to a spell, causes
-the subject to snap out of the daze and
-return to full, alert status.
-Duration: 1 minute.
-Cost: 3 to cast; 2 to maintain.
-Time to cast: 2 seconds.
-Prerequisite: Foolishness.
 
-_ mass_daze:
+| **Prerequisite**: Foolishness.
+| **Classes**: Regular; Resisted by HT
+| **Duration**: 1 minute.
+| **Cost**: 3 to cast; 2 to maintain.
+| **Time to cast**: 2 seconds.
+|
+
+Subject looks and acts normal, but does not notice what is going on
+around him, and will not remember it later. A dazed guard will stand quietly
+while a thief walks past! Any injury, or successful resistance to a spell, causes
+the subject to snap out of the daze and return to full, alert status.
+
+
+.. _mass_daze:
 
 Mass Daze
 =========
 
-Area; Resisted by HT
-As Daze, but can be cast over an
-area.
-Duration: 1 minute.
-Base Cost: 2 to cast; 1 to maintain.
-Minimum radius 2 yards.
-Time to cast: 1 second for each
-energy point spent.
-Prerequisites: Daze and IQ 13+.
+| **Prerequisite**: Daze and IQ 13+.
+| **Classes**: Area; Resisted by HT
+| **Duration**: 1 minute.
+| **Cost**: 3 to cast; 2 to maintain.
+| **Time to cast**: 1 second for each energy point spent.
+| **Base Cost**: 2 to cast; 1 to maintain. Minimum radius 2 yards.
+|
+
+As Daze, but can be cast over an area.
+
 
 .. _sleep:
 
 Sleep
 =====
-Regular; Resisted by HT
-Subject falls asleep. If standing, he
-falls – but this does not wake him. He
-can be awakened by a blow, loud
-noise, etc., but will be mentally
-stunned (see Effects of Stun, p. 420).
-The Awaken spell (p. 248) arouses him
-instantly. If not awakened, he will
-sleep for around eight hours and
+
+| **Prerequisite**: Daze.
+| **Classes**: Regular; Resisted by HT
+| **Cost**: 4.
+| **Time to cast**: 3 seconds.
+|
+
+
+Subject falls asleep. If standing, he falls – but this does not wake him. He
+can be awakened by a blow, loud noise, etc., but will be mentally
+stunned (see Effects of Stun, p. 420). The Awaken spell (p. 248) arouses him
+instantly. If not awakened, he will sleep for around eight hours and
 awaken normally.
-Cost: 4.
-Time to cast: 3 seconds.
-Prerequisite: Daze.
 
 .. _mass_sleep:
 
 Mass Sleep
 ==========
 
-Area; Resisted by HT
-As Sleep, but can be cast over an
-area.
+| **Prerequisites**: Sleep and IQ 13+.
+| **Classes**: Area; Resisted by HT
+| **Base Cost**: 3. Minimum radius 2 yards.
+| **Time to cast**: 1 second for each energy point spent.
+|
 
-Base Cost: 3. Minimum radius 2
-yards.
-Time to cast: 1 second for each
-energy point spent.
-Prerequisites: Sleep and IQ 13+.
+
+As Sleep, but can be cast over an area.
+
+
 
 .. _command:
 
