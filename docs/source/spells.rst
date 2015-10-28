@@ -1369,6 +1369,12 @@ continuing picture.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Detect Magic <detect_magic>`
+:ref:`Aura <aura>`
+:ref:`Seeker <seeker>`
+:ref:`Trace <trace>`
+:ref:`Identify Spell <identify_spell>`
+:ref:`Analyze Magic <analyze_magic>`
 =============================================== ======================= =========================================== ================================
 
 .. _detect_magic:
@@ -1556,6 +1562,10 @@ senses.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Light <light>`
+:ref:`Continual Light <continual_light>`
+:ref:`Darkness <darkness>`
+:ref:`Blur <blur>`
 =============================================== ======================= =========================================== ================================
 
 .. _light:
@@ -1657,6 +1667,8 @@ other spells.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Counterspell <counterspell>`
+:ref:`Dispel Magic <dispel_magic>`
 =============================================== ======================= =========================================== ================================
 
 
@@ -1698,6 +1710,9 @@ get spell to cancel it. You can cast mul-
 tiple Counterspells to negate an Area
 spell piece by piece.
 
+
+.. _dispel_magic:
+
 Dispel Magic
 ============
 
@@ -1736,7 +1751,16 @@ golems, robots, zombies, etc.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Foolishness <foolishness>`
+:ref:`Forgetfulness <forgetfulnes>`
+:ref:`Daze <daze>`
+:ref:`Mass Daze <mass_daze>`
+:ref:`Sleep <sleep>`
+:ref:`Mass Sleep <mass sleep>`
+:ref:`Command <command>`
 =============================================== ======================= =========================================== ================================
+
+.. _foolishness:
 
 Foolishness
 ===========
@@ -1753,6 +1777,8 @@ Duration: 1 minute.
 Cost: 1 to 5 to cast; half that
 amount to maintain (round up).
 Prerequisite: IQ 12+.
+
+.. _forgetfulness:
 
 Forgetfulness
 =============
@@ -1772,6 +1798,7 @@ Cost: 3 to cast; 3 to maintain.
 Time to cast: 10 seconds.
 Prerequisites: Magery 1 and Foolishness.
 
+.. _daze:
 
 Daze
 ====
@@ -1790,6 +1817,8 @@ Cost: 3 to cast; 2 to maintain.
 Time to cast: 2 seconds.
 Prerequisite: Foolishness.
 
+_ mass_daze:
+
 Mass Daze
 =========
 
@@ -1802,6 +1831,8 @@ Minimum radius 2 yards.
 Time to cast: 1 second for each
 energy point spent.
 Prerequisites: Daze and IQ 13+.
+
+.. _sleep:
 
 Sleep
 =====
@@ -1819,6 +1850,8 @@ Cost: 4.
 Time to cast: 3 seconds.
 Prerequisite: Daze.
 
+.. _mass_sleep:
+
 Mass Sleep
 ==========
 
@@ -1831,6 +1864,8 @@ yards.
 Time to cast: 1 second for each
 energy point spent.
 Prerequisites: Sleep and IQ 13+.
+
+.. _command:
 
 Command
 =======
@@ -1864,7 +1899,15 @@ abilities.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Haste <haste>`
+:ref:`Hinder <hinder_>`
+:ref:`Greater Haste (VH) <greater_haste>`
+:ref:`Apportation <apportation>`
+:ref:`Lockmaster <Lockmaster>`
+:ref:`Deflect Missile <deflect_missile>`
 =============================================== ======================= =========================================== ================================
+
+.. _haste:
 
 Haste
 =====
@@ -1877,12 +1920,15 @@ per point added to the subject’s Move
 and Dodge.
 Time to cast: 2 seconds.
 
+.. _hinder_:
+
 Hinder
 ======
 
 Regular; Resisted by HT
-As listed under Body Control Spells
-(p. 244).
+Same as :ref:`Hinder <hinder>`
+
+.. _great_haste:
 
 Great Haste (VH)
 ================
@@ -1899,6 +1945,8 @@ er was the subject).
 Time to cast: 3 seconds.
 Prerequisites: Magery 1, IQ 12+,
 and Haste.
+
+.. _apportation:
 
 Apportation
 ===========
@@ -1919,6 +1967,8 @@ additional 100 lbs. Cost to maintain is
 the same.
 Prerequisite: Magery 1.
 
+.. _lockmaster:
+
 Lockmaster
 ==========
 
@@ -1934,6 +1984,8 @@ Cost: 3. Cannot be maintained.
 Time to cast: 10 seconds.
 Prerequisites: Magery 2 and
 Apportation.
+
+.. _deflect_missile:
 
 Deflect Missile
 ===============
@@ -1963,7 +2015,16 @@ wise noted in a racial description.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Death Vision <death_vision>`
+:ref:`Sense Spirit <sense_spirit>`
+:ref:`Summon Spirit <summon_spirit>`
+:ref:`Zombie <zombie>`
+:ref:`Turn Zombie <turn_zombie>`
+:ref:`Summon Demon <summon_demon>`
+:ref:`Banish <banish>`
 =============================================== ======================= =========================================== ================================
+
+.. _death_vision:
 
 Death Vision
 ============
@@ -1984,6 +2045,8 @@ Cost: 2.
 Time to cast: 3 seconds.
 Prerequisite: Magery 1.
 
+.. _sense_spirit:
+
 Sense Spirit
 ============
 
@@ -1998,6 +2061,8 @@ casting, limit the spell to a specific
 type of entity, or exclude a given type.
 Base Cost: 1/2.
 Prerequisite: Death Vision.
+
+.. _summon_spirit:
 
 Summon Spirit
 =============
@@ -2032,6 +2097,8 @@ Time to cast: 5 minutes.
 Prerequisites: Magery 2 and Death
 Vision.
 
+.. _zombie:
+
 Zombie
 ======
 
@@ -2060,6 +2127,8 @@ Time to cast: 1 minute.
 Prerequisites: Summon Spirit and
 Lend Vitality.
 
+.. _turn_zombie:
+
 Turn Zombie
 ===========
 Area
@@ -2077,6 +2146,8 @@ Time to cast: 4 seconds.
 Prerequisite: Zombie. (This spell is
 common among those who have
 Power Investiture.)
+
+.. _summon_demon:
 
 Summon Demon
 ============
@@ -2108,6 +2179,8 @@ Time to cast: 5 minutes.
 Prerequisites: Magery 1 and at least
 one spell from each of 10 different
 colleges.
+
+.. _banish:
 
 Banish
 ======
@@ -2161,13 +2234,18 @@ Protection and warning
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Shield <shield>`
+:ref:`Armor <armor>`
+:ref:`Magelock <magelock>`
 =============================================== ======================= =========================================== ================================
+
+.. _shield:
 
 Shield
 ======
 Regular
 Conjures an invisible shield of
-magical force that moves to protect
+magicaв  force that moves to protect
 the subject from frontal attacks. The
 Defense Bonus granted by this spell is
 cumulative with that from an actual
@@ -2178,6 +2256,8 @@ Cost: Twice the Defense Bonus
 given to the subject, to a maximum
 DB of 4 (cost 8); half that to maintain.
 Prerequisite: Magery 2.
+
+.. _armor:
 
 Armor
 =====
@@ -2193,6 +2273,8 @@ given to the subject, to a maximum
 DR of 5 (cost 10); half that to main-
 tain.
 Prerequisites: Magery 2 and Shield.
+
+.. _magelock:
 
 Magelock
 ========
@@ -2224,7 +2306,18 @@ any other living creature.
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
+:ref:`Seek Water <seek_water>`
+:ref:`Purify Water <purify_water>`
+:ref:`Create Water <create_water>`
+:ref:`Breath Water <breathe_water_2>`
+:ref:`Destroy Water <destroy_water>`
+:ref:`Shape Water <shape_water>`
+:ref:`Fog <fog>`
+:ref:`Icy Weapon <icy_weapon>`
 =============================================== ======================= =========================================== ================================
+
+.. _seek_water:
+
 Seek Water
 ==========
 
@@ -2238,6 +2331,8 @@ of water may be excluded if the caster
 specifically mentions them before
 beginning. Requires a forked stick;
 roll at -3 if this is not available.
+
+.. _purify_water:
 
 Purify Water
 ============
@@ -2258,6 +2353,8 @@ onds per gallon, unless a large con-
 tainer and ring are used.
 Prerequisite: Seek Water.
 
+.. _create_water:
+
 Create Water
 ============
 
@@ -2277,6 +2374,8 @@ manent.
 Cost: 2 per gallon created.
 Prerequisite: Purify Water.
 
+.. _destroy_water:
+
 Destroy Water
 =============
 
@@ -2294,11 +2393,14 @@ Base Cost: 3. In deep water, the area
 is only 2 yards in height (or depth).
 Prerequisite: Create Water.
 
-Breath Water
-============
+.. _breathe_water_2:
 
-Regular
-As listed under Air Spells
+Breathe Water
+=============
+
+Same as :ref:`Breathe water <breathe_water`>
+
+.. _shape_water:
 
 Shape Water
 ===========
@@ -2321,6 +2423,8 @@ cost to maintain.
 Time to cast: 2 seconds.
 Prerequisite: Create Water.
 
+.. _fog:
+
 Fog
 ===
 
@@ -2340,6 +2444,8 @@ amount of fog can extinguish a fire.
 Duration: 1 minute.
 Base Cost: 2; half that to maintain.
 Prerequisite: Shape Water.
+
+.. _icy_weapon:
 
 Icy Weapon
 ==========
