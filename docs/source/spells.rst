@@ -1,8 +1,11 @@
-******
+######
 Spells
-******
+######
 
 
+***************
+Сводная таблица
+***************
 =============================================== ======================= =========================================== ================================
 Spell                                           Colleges                Requires                                    Classes
 =============================================== ======================= =========================================== ================================
@@ -66,9 +69,45 @@ Spell                                           Colleges                Requires
                                                                         :ref:`Create Fire <create_fire>`
                                                                         and :ref:`Shape Fire <shape_fire>`
 :ref:`Explosive Fireball <explosive_fireball>`  Fire                    :ref:`Fireball <fireball>`                  Missile
+:ref:`Planar Summons <planar_summon>`           Gate                    :ref:`Magery 1 <magery>` and 1 Special      Special
+                                                                        spell from 10 colleges.
+:ref:`Plane Shift <_plane_shift>`               Gate                    :ref:`Plane Shift <_plane_shift>`           Special
+:ref:`Lend Energy <lend_energy>`                Healing                 :ref:`Magery 1 <magery>` or                 Regular
+                                                                        :ref:`Empathy <empath`>
+:ref:`Lend Vitality <lend_vitability>`          Healing                 :ref:`Lend Energy <lend_energy>`            Regular
+:ref:`Recover Energy <recover_energy>`          Healing                 :ref:`Magery 1 <magery>` and                Special
+                                                                        :ref:`Lend Energy <lend_energy>`
+:ref:`Awaken <awaken>`                          Healing                 :ref:`Lend Vitality <lend_vitability>`      Area
+:ref:`Minor Healing <minor_healing>`            Healing                 :ref:`Lend Vitality <lend_vitability>`      Regular
+:ref:`Major Healing <major_healing>`            Healing                 :ref:`Magery 1 <magery>` and                Regular
+                                                                        :ref:`Minor Healing <minor_healing>`
+:ref:`Great Healing <great_healing>`            Healing                 :ref:`Magery 3 <magery` and                 Regular
+                                                                        :ref:`Major Healing <major_healing>`
 =============================================== ======================= =========================================== ================================
 
 
+***
+Air
+***
+
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Purify Air <purify_air>`                  Air                                                                 Area
+:ref:`Create Air <create_air>`                  Air                     :ref:`Purify Air <purify_air>`              Area
+:ref:`Shape Air <shape_air>`                    Air                     :ref:`Create Air <create_air>`              Regular
+:ref:`No-Smell <no_smell>`                      Air                     :ref:`Purify Air <purify_air>`              Regular
+:ref:`Predict Weather <predict_weather>`        Air                     any 4 Air spells                            Information
+:ref:`Breathe Water <breathe_water>`            Air, Water              :ref:`Create Air <create_air>` and          Regular
+                                                                        :ref:`Destroy water <destroy_water>`
+:ref:`Walk on Air <walk_on_air>`                Air                     :ref:`Shape Air <shape_air>`                Regular
+:ref:`Earth to Air <earth_to_air>`              Air, Earth              :ref:`Create Air <create_air>` and          Regular
+                                                                        :ref:`Shape Earth <shape_earth>`
+:ref:`Stench <stench>`                          Air                     :ref:`Purify Air <purify_air>`              Area
+:ref:`Lightning <lightning>`                    Air                     any 6 Air spells and
+                                                                        :ref:`Magery 1 <magery>`                    Missile
+=============================================== ======================= =========================================== ================================
 
 .. _purify_air:
 
@@ -290,6 +329,28 @@ at all). The GM may encourage creative use of lightning until it becomes
 a nuisance ...
 
 
+************
+Body control
+************
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Itch <itch>`                              Body Control                                                        Regular; Resisted by HT
+:ref:`Spasm <spasm>`                            Body Control            :ref:`Itch <itch>`                          Regular; Resisted by HT
+:ref:`Pain <pain>`                              Body Control            :ref:`Spasm <spasm>`                        Regular; Resisted by HT
+:ref:`Clumsiness <clumsiness>`                  Body Control            :ref:`Spasm <spasm>`                        Regular; Resisted by HT
+:ref:`Hinder <hinder>`                          Body Control            :ref:`Clumsiness <clumsiness>` or           Regular; Resisted by HT
+                                                                        :ref:`Haste <haste>`
+:ref:`Rooted Feet <rooted_feet>`                Body Control            :ref:`Hinder <hinder>`                      Regular; Resisted by ST
+:ref:`Paralyze Limb <paralyze_limb>`            Body Control            :ref:`Magery 1 <magery>` and five           Melee; Resisted by HT
+                                                                        Body Control spells, including
+                                                                        :ref:`Pain <pain>`
+:ref:`Wither Limb <wither_limb>`                Body Control            :ref:`Magery 2 <magery>` and                Melee; Resisted by HT
+                                                                        :ref:`Paralyze Limb <paralyze_limb>`
+:ref:`Deathtouch <deathtouch>`                  Body Control            :ref:`Wither Limb <wither_limb>`            Melee
+=============================================== ======================= =========================================== ================================
+
 
 
 .. _itch:
@@ -467,6 +528,18 @@ Armor does not protect. This spell does affect the undead.
 
 
 
+*********************
+Communication/Empathy
+*********************
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Sense Foes <sense_foes>`                  Communication/Empathy                                               Information; Area
+:ref:`Sense Emotion <sense_emotion>`            Communication/Empathy   :ref:`Sense Foes <sense_foes>`              Regular
+:ref:`Truthsayer <truthsayer>`                  Communication/Empathy   :ref:`Sense Emotion <sense_emotion>`        Information; Resisted by Will
+:ref:`Mind-Reading <mind_reading>`              Communication/Empathy   :ref:`Truthsayer <truthsayer>`              Regular; Resisted by Will
+=============================================== ======================= =========================================== ================================
 
 .. _sense_foes:
 
@@ -568,6 +641,28 @@ This spell does not affect previously established mental control.
 
 
 
+*****
+Earth
+*****
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Seek Earth <seek_earth>`                  Earth                                                               Information
+:ref:`Shape Earth <shape_earth>`                Earth                   :ref:`Seek Earth <seek_earth>`              Regular
+:ref:`Earth to Stone <earth_to_stone>`          Earth                   :ref:`Magery 1 <magery>` and                Regular
+                                                                        :ref:`Shape Earth <shape_earth>`
+:ref:`Create Earth <create_earth>`              Earth                   :ref:`Earth to Stone <earth_to_stone>`      Regular
+:ref:`Flesh to Stone <flesh_to_stone>`          Earth                   :ref:`Earth to Stone <earth_to_stone>`      Regular; Resisted by HT
+:ref:`Stone to Earth <stone_to_earth>`          Earth                   :ref:`Earth to Stone <earth_to_stone>`      Regular
+                                                                        or any 4 Earth spells
+:ref:`Stone to Flesh <stone_to_flesh>`          Earth                   :ref:`Magery 2 <magery>`,                   Melee
+                                                                        :ref:`Flesh to Stone <flesh_to_stone>`
+                                                                        and
+                                                                        :ref:`Stone to Earth <stone_to_earth>`
+:ref:`Entombment <entombment>`                  Earth                   :ref:`Magery 2 <magery>`                    Regular; Resisted by HT
+                                                                        and 5 Earth spells.
+=============================================== ======================= =========================================== ================================
 
 .. _seek_earth:
 
@@ -739,7 +834,30 @@ by tunneling or the reverse of this spell. A mage who casts Entombment
 on himself may elect to stay awake, but this is unwise unless he also
 knows Earth to Air!
 
+****
+Fire
+****
 
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Ignite Fire <ignite_fire>`                Fire                                                                Regular
+:ref:`Create Fire <create_fire>`                Fire                    :ref:`Ignite Fire <ignite_fire>`            Area
+:ref:`Shape Fire <shape_fire>`                  Fire                    :ref:`Ignite Fire <ignite_fire>`            Area
+:ref:`Deflect Energy <deflect_energy>`          Fire                    :ref:`Magery 2 <magery>`                    Blocking
+                                                                        and :ref:`Shape Fire <shape_fire>`
+:ref:`Extinguish Fire <extinguish_fire>`        Fire                    :ref:`Ignite Fire <ignite_fire>`            Area
+:ref:`Heat <heat>`                              Fire                    :ref:`Create Fire <create_fire>` and        Regular
+                                                                        :ref:`Shape Fire <shape_fire>`
+:ref:`Cold <cold>`                              Fire                    :ref:`Heat <heat>`                          Regular
+:ref:`Resist Cold <resist_cold>`                Fire                    :ref:`Heat <heat>`                          Regular
+:ref:`Resist Fire <resist_fire>`                Fire                    :ref:`Extinguish Fire <extinguish_fire>`    Regular
+                                                                        and :ref:`Cold <cold>`
+:ref:`Fireball <fireball>`                      Fire                    :ref:`Magery 2 <magery>`,                   Missile
+                                                                        :ref:`Create Fire <create_fire>`
+                                                                        and :ref:`Shape Fire <shape_fire>`
+:ref:`Explosive Fireball <explosive_fireball>`  Fire                    :ref:`Fireball <fireball>`                  Missile
+=============================================== ======================= =========================================== ================================
 
 .. _ignite_fire:
 
@@ -989,3 +1107,1254 @@ Creates a fireball that affects both its target and things nearby. This has
 catch foes in the blast. The target and anyone closer to the target than one
 yard take full damage. Those further away divide damage by 3 times their
 distance in yards (round down).
+
+****
+Gate
+****
+These spells manipulate time, space, and dimensions.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Planar Summons <planar_summon>`           Gate                    :ref:`Magery 1 <magery>` and 1 Special      Special
+                                                                        spell from 10 colleges.
+:ref:`Plane Shift <_plane_shift>`               Gate                    :ref:`Plane Shift <_plane_shift>`           Special
+=============================================== ======================= =========================================== ================================
+
+.. _planar_summon:
+
+Planar Summons
+==============
+
+**Prerequisite**: :ref:`Magery 1 <magery>` and at least one
+
+**Classes**: Special
+
+**Cost**: 1 point per 10 character points used to build the summoned entity.
+Minimum energy cost is 20 (although this will not always sum-mon a 200-point being).
+The GM secretly determines the capabilities of all summoned creatures
+
+**Time to cast**: 5 minutes.
+
+Summons a creature, such as a demon or a Thing Man Was Not Meant To Know, from another
+plane of existence. The GM determines the predisposition and abilities of this being.
+Each plane requires a different Planar Summons spell. Some exceptionally potent entities
+might require their own unique spells!
+
+When the creature appears, the cast-er must immediately
+try to control it. Treat this as a Quick Contest between the caster’s Planar Summons skill
+and the entity’s Will. The caster is at +4 if he knows the creature’s “true name.”
+
+If the caster wins, he can give the creature a single command, which it must carry out. On
+completing this task – or after one hour in any event – the entity usually vanishes. However,
+some powerful entities can stay for as long as they wish . . .
+
+If the caster ties or loses, the crea-ture reacts badly. An “evil” being com-mits violence or
+vandalism, while a “good” one is more likely to depart in a huff and put in a bad word with the
+caster’s gods. Wild or chaotic creatures are liable to engage in theft and mis-chief. Extremely
+alien entities might react in disturbing and unpredictable ways.
+
+
+.. _plane_shift:
+
+Plane Shift (VH)
+================
+
+**Prerequisite**: Planar Summons for the same plane.
+
+**Classes**: Special
+
+**Duration**: Permanent.
+
+**Cost**: 20.
+
+**Time to cast**: 5 seconds.
+
+This spell bodily transports the caster – along with anything he is carrying (up to Heavy encumbrance)
+– to a particular plane of existence. Each plane requires its own Plane Shift spell. This is a one-way
+trip. To get back, the caster must know Plane Shift for his home plane or get a wizard in the other plane
+to cast :ref:`Banish <banish>` on him.
+
+This spell gives the caster no special immunity to his surroundings. To safely visit a plane where the
+natural conditions are vacuum, flame, etc., you must learn the necessary protective spells.
+
+*******
+Healing
+*******
+
+Anyone who tries to heal himself has a skill penalty equal to the amount of injury he has. For example,
+a wizard who is missing 4 HP rolls at -4 to heal himself.
+
+A critical failure with a Healing spell always has some appropriate bad effect on the patient, aggravating
+the injury, creating a new wound, or the like.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+:ref:`Lend Energy <lend_energy>`                Healing                 :ref:`Magery 1 <magery>` or                 Regular
+                                                                        :ref:`Empathy <empath`>
+:ref:`Lend Vitality <lend_vitability>`          Healing                 :ref:`Lend Energy <lend_energy>`            Regular
+:ref:`Recover Energy <recover_energy>`          Healing                 :ref:`Magery 1 <magery>` and                Special
+                                                                        :ref:`Lend Energy <lend_energy>`
+:ref:`Awaken <awaken>`                          Healing                 :ref:`Lend Vitality <lend_vitability>`      Area
+:ref:`Minor Healing <minor_healing>`            Healing                 :ref:`Lend Vitality <lend_vitability>`      Regular
+:ref:`Major Healing <major_healing>`            Healing                 :ref:`Magery 1 <magery>` and                Regular
+                                                                        :ref:`Minor Healing <minor_healing>`
+:ref:`Great Healing <great_healing>`            Healing                 :ref:`Magery 3 <magery` and                 Regular
+                                                                        :ref:`Major Healing <major_healing>`
+=============================================== ======================= =========================================== ================================
+
+
+.. _lend_energy:
+
+Lend Energy
+===========
+
+**Prerequisite**: :ref:`Magery 1 <magery>` or Empathy.
+
+**Classes**: Regular
+
+Restores the subject’s lost Fatigue
+Points, at an energy cost to the caster.
+Cannot increase the subject’s FP score
+above its normal maximum.
+Cost: Any amount; the energy spent
+by the caster goes to the subject as
+restored FP (e.g., if the caster spends 5
+energy, the subject regains 5 lost FP).
+Casting cost is not reduced by high
+skill.
+
+.. _lend_vitability:
+
+Lend Vitality
+=============
+
+
+**Prerequisite**: :ref:`Lend Energy <lend_energy>`
+
+**Classes**: Regular
+
+**Duration**: 1 hour.
+
+**Cost**: Any amount; the energy spent by the caster goes to the subject as
+restored HP (e.g., if the caster spends 5 energy, the subject regains 5 lost
+HP). Casting cost is not reduced by high skill. *Cannot be maintained; must be recast.*
+
+Temporarily restores the subject’s lost Hit Points, at an energy cost to the
+caster. Cannot increase the subject’s HP score above its normal maximum.
+Since restored HP vanish after one hour and the spell cannot be maintained,
+this spell is only a stopgap measure.
+
+.. _recover_energy:
+
+Recover Energy
+==============
+
+**Prerequisites**: :ref:`Magery 1 <magery>` and :ref:`Lend Energy <lend_energy>`
+
+**Classes**: Special
+
+**Cost**: None.
+
+
+This spell allows the caster to rest and recover Fatigue Points more
+quickly than normal by drawing energy from the mana around him. A normal
+person recovers 1 FP every 10 minutes. A mage who knows this spell at skill
+15 or higher recovers 1 FP every 5 minutes. A mage who knows this spell at
+skill 20 or higher recovers 1 FP every 2 minutes. No further improvement is
+possible. Note that this spell works on the caster himself; it cannot restore FP to others.
+
+The mage must rest quietly, but no ritual or die roll is required. While
+resting, he can maintain ordinary spells, but not those that require concentration.
+
+This spell does not function in low- or no-mana areas.
+
+.. _awaken:
+
+Awaken
+======
+
+**Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
+
+**Classes**: Area
+
+**Base Cost**: 1.
+
+This spell renders the subject(s) awake and alert. It instantly counters
+the effects of stunning. If the subject is very fatigued (less than 1/3 basic
+FP), this spell renders him alert for an hour but costs him 1 FP at the end of
+that time. It has no effect on those with 0 or fewer FP. Sleeping or unconscious
+subjects get a HT roll to awaken, at a bonus equal to the caster’s
+margin of success. A subject rolls at -3 if unconscious due to injury, at -6 if
+drugged.
+
+.. _minor_healing:
+
+Minor Healing
+=============
+
+**Prerequisite**: :ref:`Lend Vitality <lend_vitability>`
+
+**Classes**: Regular
+
+**Cost**: 1 to 3. The same amount is restored to the subject.
+
+Restores up to 3 HP to the subject. Does not eliminate disease or poison,
+but cures the damage they cause. This spell is risky when used more
+than once per day by the same caster on the same subject. If you try, roll at
+-3 for the first repetition, -6 for the second, and so on.
+
+If you have the Physician skill at level 15 or higher, a critical failure with
+this spell counts only as an ordinary failure – unless you are trying the
+spell more than once per day on the same subject.
+
+
+.. _major_healing:
+
+Major Healing (VH)
+==================
+
+**Prerequisites**: :ref:`Magery 1 <magery>` and :ref:`Minor Healing <minor_healing>`
+
+**Classes**: Regular
+
+**Cost**: 1 to 4. Twice the amount spent is restored to the subject.
+
+Restores up to 8 HP to the subject. Does not eliminate disease or poison,
+but cures the damage they cause. Otherwise, this spell functions just
+like Minor Healing: it is at -3 per casting on the same subject in one day,
+and Physician skill at level 15 or higher mitigates the effects of a critical
+failure.
+
+The penalties for repeated casting accrue separately for Minor Healing
+and Major Healing. For instance, a caster could cast both spells on the
+same subject in the same day at no penalty.
+
+.. _great_healing:
+
+Great Healing (VH)
+==================
+
+**Prerequisites**: Magery 3 and Major Healing.
+
+**Classes**: Regular
+
+**Cost**: 20. One try per day per
+subject.
+
+**Time to cast**: 1 minute.
+
+
+Restores all of the subject’s missing HP. Does not eliminate disease or poison,
+nor does it restore crippled or missing body parts, but it can heal HP lost to any of these things.
+
+A given subject can only benefit from this spell once per day, whether cast by the same caster or by a differ
+ent caster each time.
+
+If you have the Physician skill at level 15 or higher, a critical failure with this spell counts only as an ordinary
+failure.
+
+
+*********
+Knowledge
+*********
+
+These spells provide information.
+Duration is “instantaneous” unless
+noted otherwise – that is, the caster
+gets a flash of knowledge, not a
+continuing picture.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+.. _detect_magic:
+
+Detect Magic
+============
+Regular
+**Prerequisite**: Magery 1.
+
+**Cost**: 2.
+**Time to cast**: 5 seconds.
+
+
+Lets the caster determine whether
+any one object is magical. If the spell
+is successful, a second casting tells
+whether the magic is temporary or
+permanent. A critical success on
+either roll fully identifies the spell, as
+for Analyze Magic.
+
+.. _aura:
+
+Aura
+====
+Information
+
+**Prerequisite**: Detect Magic.
+
+**Cost**: 3 (for any size subject).
+
+Shows the caster a glowing halo, or
+“aura,” around the subject. This aura
+gives the caster a general insight into
+the subject’s personality – the better
+the skill roll, the better the insight. The
+aura also shows whether the subject is
+a mage (and about how powerful);
+whether the subject is possessed or
+controlled in any way; and whether
+the subject is in the grip of any violent
+emotion. A critical success detects
+“secret” traits, such as lycanthropy,
+vampirism, and unnatural longevity.
+All living beings have auras; inani-
+mate things do not. A zombie is
+detectable by his faint, death-haunted
+aura, while a vampire retains the aura
+he had in life. Illusions and created
+beings have no aura, so a successful
+casting of this spell distinguishes them
+from real persons.
+
+.. _seeker:
+
+
+Seeker
+======
+
+Information
+
+**Prerequisites**: Magery 1, IQ 12+,
+and at least two “Seek” spells (e.g.,
+Seek Earth and Seek Water).
+
+**Cost**: 3. One try per week.
+
+Attunes the caster to one individual
+or manmade object he is looking for. A
+success gives the caster a vision of the
+item’s whereabouts – or leads him to
+it, if it is within a mile.
+
+To seek a person, the caster must
+either know his name or know him
+well enough to visualize him. For
+instance, you cannot use this spell to
+solve a murder by seeking “the mur-
+derer” if you don’t know who that is –
+but if you do, Seeker will find him.
+Modifiers: Long-distance modifiers
+(p. 241). Something associated with
+the item sought (e.g., part of a lost per-
+son’s clothing) should be available at
+the time of casting; if not, roll at -5.
+The roll is at +1 if the caster has held
+or is otherwise familiar with the item
+sought.
+
+
+.. _trace:
+
+Trace
+=====
+Regular
+
+**Prerequisite**: Seeker.
+
+**Time to cast**: 1 minute.
+
+**Cost**: 3 to cast; 1 to maintain. One
+try per day.
+
+
+
+May be cast on any object or living
+being. As long as the spell is main-
+tained, the caster will know where the
+subject is if he concentrates for a sec-
+ond. Either the subject must be with
+the caster when the spell is first cast,
+or the caster must first cast Seeker
+successfully. Long-distance modifiers
+(p. 241) apply if subject is not in
+caster’s presence.
+Duration: 1 hour.
+
+.. _identify_spell:
+
+Identify Spell
+==============
+Information
+
+**Prerequisite**: Detect Magic.
+
+**Cost**: 2.
+
+
+Lets the caster know what spell or
+spells have just been cast (within the
+last five seconds), or are being cast at
+the moment, on or by the subject. It
+does not identify the spells on a per-
+manently enchanted item. One casting
+identifies all spells cast on or by the
+subject. However, if any of these spells
+are totally unknown to the caster – not
+just spells he doesn’t know, but spells
+he has never heard of – the GM should
+provide only a general, vague descrip-
+tion; e.g., “Some kind of physical pro-
+tection.” Wizards have heard of every
+spell in this list unless the GM rules
+that some are secret, but wizards have
+not heard of new spells created by the
+GM or players.
+
+.. _analyze_magic:
+
+Analyze Magic
+=============
+
+**Prerequisite**: Identify Spell.
+
+**Cost**: 8.
+
+**Time to cast**: 1 hour.
+
+Information; Resisted by spells
+that conceal magic
+Tells the caster exactly what spells
+are on the subject. If the subject has
+more than one spell on it, Analyze
+Magic identifies the one that took the
+least energy and tells the caster “there
+are more spells.” It can then be cast
+again to determine the next spell, and
+so on. Like Identify Spell, above, it
+gives limited results when faced with a
+spell the caster has never heard of.
+
+
+******************
+Light and Darkness
+******************
+
+These spells affect not just visible
+light, but also infrared and ultraviolet
+light. Spells that provide illumination
+allow those with Infravision and
+Ultravision to see, while spells that
+block ordinary vision also block those
+senses.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+.. _light:
+
+Light
+=====
+
+Regular
+
+**Duration**: 1 minute.
+
+**Cost**: 1 to cast; 1 to maintain.
+
+Produces a small light, like a can-
+dle flame. It stays still unless the cast-
+er concentrates on moving it; then it
+can travel at Move 5.
+
+
+.. _continual_light:
+
+Continual Light
+===============
+Regular
+
+Prerequisite: Light.
+
+Duration: Variable. Roll 2d for
+number of days. Does not count as a
+spell “on.”
+
+Cost: 2 for a dim glow, 4 for the
+brightness of a fire, 6 for a glare so
+bright as to be painful at close range.
+
+When cast on a small object (up to
+fist-sized or 1 lb.) or a small part of a
+larger object, this spell makes that
+object glow with white light.
+
+.. _darkness:
+
+Darkness
+========
+Area
+
+**Prerequisite**: Continual Light.
+
+**Duration**: 1 minute.
+
+**Base Cost**: 2 to cast; 1 to maintain.
+
+
+Cloaks the area of effect in pitch
+darkness. A person inside the area can
+see out normally, but can see nothing
+else within the area. Those outside the
+area can see only darkness within.
+Thus, attacks out of darkness suffer no
+penalty, but attacks into darkness are
+at a penalty; see Visibility (p. 394) for
+combat rules.
+
+The Dark Vision advantage lets you
+see through a Darkness spell, but
+Night Vision and Infravision do not.
+
+
+.. _blur:
+
+Blur
+====
+Regular
+
+**Prerequisite**: Darkness.
+
+**Duration**: 1 minute.
+
+**Cost**: 1 to 5 to cast; the same to maintain.
+
+**Time to cast**: 2 seconds.
+
+
+This spell makes the subject harder
+to see and therefore harder to hit with
+attacks. Each point of energy gives -1
+to the effective skill of any attack on
+the subject, to a maximum of -5.
+
+****
+Meta
+****
+
+These spells have to do with the
+structure of magic itself. They are
+spells about spells, or spells that affect
+other spells.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+
+.. _counterspell:
+
+Counterspell
+============
+
+**Regular**; Resisted by subject spell
+
+**Prerequisite**: Magery 1.
+
+**Time to cast**: 5 seconds.
+
+**Cost**: Half that of the spell coun-
+tered, not counting bonuses the other
+caster got for high skill.
+
+
+This spell nullifies any one ongoing
+spell. It cannot “counter” spells that
+make a permanent change in the world
+(e.g., Extinguish Fire, Flesh to Stone,
+or Zombie) and it cannot affect per-
+manently enchanted items, but it can
+counter spells cast using magic items.
+The “subject” of Counterspell may be
+either the subject of the spell to be
+countered or the person who cast that
+spell.
+
+Counterspell is a single spell – but
+to counter a given spell, you must also
+know that spell. Roll against the lower
+of your Counterspell skill or your skill
+with the spell being countered. You
+must win a Quick Contest with the tar-
+get spell to cancel it. You can cast mul-
+tiple Counterspells to negate an Area
+spell piece by piece.
+
+Dispel Magic
+============
+
+Area; Resisted by subject spells
+
+This spell, if successful, negates
+other spells within the area. It has no
+effect on enchanted items – just on
+spells. Each spell resists separately.
+
+Dispel Magic is not selective! The cast-
+er need not know the spell(s) being
+dispelled. To nullify a specific spell
+without affecting others, use
+Counterspell.
+Duration: Dispelled magic is per-
+manently gone.
+Base Cost: 3.
+Time to cast: 1 second for each
+energy point spent.
+Prerequisites: Counterspell and at
+least 12 other spells (any type).
+
+
+************
+Mind Control
+************
+
+These spells have no effect on sub-
+jects that lack intelligence (IQ 0) or
+free will (in general, this means the
+Automaton meta-trait; see p. 263).
+Thus, they do not work on most
+golems, robots, zombies, etc.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+Foolishness
+===========
+
+Regular; Resisted by Will
+
+The subject suffers -1 to his IQ and
+IQ-based skills (including spells) for
+every point of energy put into the
+spell. The GM may also require an IQ
+roll to remember complex things
+while under the influence of this spell.
+Duration: 1 minute.
+Cost: 1 to 5 to cast; half that
+amount to maintain (round up).
+Prerequisite: IQ 12+.
+
+Forgetfulness
+=============
+
+Regular; Resisted by Will or
+skill
+
+Causes the subject to forget one
+fact, skill, or spell temporarily. The
+skill or spell cannot be used while
+Forgetfulness is in effect. If (for
+instance) a forgotten spell is a prereq-
+uisite for other spells, the other spells
+can still be used, at -2 to skill.
+Duration: 1 hour.
+Cost: 3 to cast; 3 to maintain.
+Time to cast: 10 seconds.
+Prerequisites: Magery 1 and Foolishness.
+
+
+Daze
+====
+Regular; Resisted by HT
+
+Subject looks and acts normal, but
+does not notice what is going on
+around him, and will not remember it
+later. A dazed guard will stand quietly
+while a thief walks past! Any injury, or
+successful resistance to a spell, causes
+the subject to snap out of the daze and
+return to full, alert status.
+Duration: 1 minute.
+Cost: 3 to cast; 2 to maintain.
+Time to cast: 2 seconds.
+Prerequisite: Foolishness.
+
+Mass Daze
+=========
+
+Area; Resisted by HT
+As Daze, but can be cast over an
+area.
+Duration: 1 minute.
+Base Cost: 2 to cast; 1 to maintain.
+Minimum radius 2 yards.
+Time to cast: 1 second for each
+energy point spent.
+Prerequisites: Daze and IQ 13+.
+
+Sleep
+=====
+Regular; Resisted by HT
+Subject falls asleep. If standing, he
+falls – but this does not wake him. He
+can be awakened by a blow, loud
+noise, etc., but will be mentally
+stunned (see Effects of Stun, p. 420).
+The Awaken spell (p. 248) arouses him
+instantly. If not awakened, he will
+sleep for around eight hours and
+awaken normally.
+Cost: 4.
+Time to cast: 3 seconds.
+Prerequisite: Daze.
+
+Mass Sleep
+==========
+
+Area; Resisted by HT
+As Sleep, but can be cast over an
+area.
+
+Base Cost: 3. Minimum radius 2
+yards.
+Time to cast: 1 second for each
+energy point spent.
+Prerequisites: Sleep and IQ 13+.
+
+Command
+=======
+
+Blocking; Resisted by Will
+Lets the caster give the subject one
+immediate command – a word and a
+gesture, or at most two words – which
+the subject must obey. If the subject is
+unable to fulfill the command imme-
+diately or on his next turn, the spell
+has no effect. Some examples:
+“Drop it!” – the subject drops what-
+ever he was holding.
+“Look!” – the subject looks in the
+direction the caster indicates.
+“Wait!” – the subject takes the Wait
+maneuver on his next turn.
+Cost: 2.
+Prerequisites: Forgetfulness. Magery 2
+and
+
+********
+Movement
+********
+
+These spells physically manipulate
+the subject or affect his movement
+abilities.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+Haste
+=====
+Regular
+Increases the subject’s Move and
+Dodge scores by up to 3.
+Duration: 1 minute.
+Cost: 2 to cast, and 1 to maintain,
+per point added to the subject’s Move
+and Dodge.
+Time to cast: 2 seconds.
+
+Hinder
+======
+
+Regular; Resisted by HT
+As listed under Body Control Spells
+(p. 244).
+
+Great Haste (VH)
+================
+Regular
+Speeds the subject up a lot. In
+effect, the subject has one level of
+Altered Time Rate (p. 38) for the dura-
+tion of the spell.
+Duration: 10 seconds.
+Cost: 5. Cannot be maintained;
+must be recast. At the spell’s end, the
+subject also loses 5 FP (unless the cast-
+er was the subject).
+Time to cast: 3 seconds.
+Prerequisites: Magery 1, IQ 12+,
+and Haste.
+
+Apportation
+===========
+
+
+Regular; Resisted by Will
+Lets the caster move physical
+objects without touching them. This
+spell levitates its subject at Move 1 –
+not fast enough to do damage with it.
+Living subjects get to resist with Will.
+Duration: 1 minute.
+Cost: 1 for an object up to 1 lb. in
+weight; 2 for an object up to 10 lbs.; 3
+for an object up to 50 lbs.; 4 for an
+object up to 200 lbs.; and 4 for each
+additional 100 lbs. Cost to maintain is
+the same.
+Prerequisite: Magery 1.
+
+Lockmaster
+==========
+
+Regular; Resisted by Magelock
+Opens locks magically. A Magelock
+spell gets a roll to resist Lockmaster.
+Any modifiers for the difficulty of the
+lock that would apply Lockpicking
+skill also affect this spell.
+Duration: Once opened, a lock
+stays open until closed.
+Cost: 3. Cannot be maintained.
+Time to cast: 10 seconds.
+Prerequisites: Magery 2 and
+Apportation.
+
+Deflect Missile
+===============
+
+Blocking
+
+Deflects one missile about to hit the
+subject – including any Missile spell.
+Counts as a parry for combat purpos-
+es. If the caster is not the subject,
+apply distance modifiers as for a
+Regular spell. Deflected attacks may
+still hit a target beyond the subject.
+
+Cost: 1.
+Prerequisite: Apportation.
+
+***********
+Necromantic
+***********
+
+These spells deal with death, the
+dead, and spirits. They affect corpses
+and spirits of all races, unless other-
+wise noted in a racial description.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+Death Vision
+============
+
+Regular
+The subject sees a vivid presenti-
+ment of his own death. This might be
+a vision of the future or a false vision
+from another possible future – but it is
+always chilling. The subject is mental-
+ly stunned until he can make his IQ
+roll to shake off the effects of the spell.
+This spell can also be useful to the sub-
+ject, by pointing out a possibly deadly
+hazard.
+Duration: 1 second.
+Cost: 2.
+Time to cast: 3 seconds.
+Prerequisite: Magery 1.
+
+Sense Spirit
+============
+
+Information; Area
+Tells the caster if there are any
+ghosts, spirits, undead, or similar
+supernatural entities within the area
+of effect. On a good roll, it gives a gen-
+eral impression of what kind of being
+is present. Caster may, at the time of
+casting, limit the spell to a specific
+type of entity, or exclude a given type.
+Base Cost: 1/2.
+Prerequisite: Death Vision.
+
+Summon Spirit
+=============
+
+Information; Resisted by
+spirit’s Will
+Lets the caster talk to the spirit of a
+dead person. The subject resists at -5 if
+he was a friend of the caster. If the
+spell succeeds, the subject will answer
+one question, to the best of his knowl-
+edge as of the time he died, and one
+more per minute he remains.
+If the spell fails, that caster (or cer-
+emonial group) may not summon that
+spirit again for one year. A critical fail-
+ure means the caster summoned a
+malign spirit, who lies deliberately.
+Modifiers: -5 if you don’t know the
+subject’s full name. -1 if it has been
+more than a week since the subject’s
+death, -2 if more than a month, -3 if
+more than a year, -4 if more than 10
+years, -5 if more than 50 years, and -6
+if more than 500 years.
+Duration: 1 minute.
+Cost: 20 to cast; 10 to maintain.
+Halve these costs if the spell is cast at
+the site of death or over the corpse of
+the person being contacted.
+Time to cast: 5 minutes.
+Prerequisites: Magery 2 and Death
+Vision.
+
+Zombie
+======
+
+Regular
+The subject of this spell must be a
+relatively complete dead body. The
+condition of the corpse determines the
+result: a fresh body produces a zom-
+bie, a skeleton produces an animated
+skeleton, and an old, dry body pro-
+duces a walking mummy. The animat-
+ed corpse becomes an undead servant
+of the caster. It attributes are based on
+those of the original body, as are its
+physical advantages and DX-based
+skills. It does not have the “soul,” men-
+tal traits, IQ-based skills, or memories
+of the living person. The GM
+determines its exact abilities, as
+appropriate to the campaign.
+Duration: The zombie remains ani-
+mated until destroyed.
+Cost: 8, multiplied by 1 + SM for
+creatures larger than human-sized.
+Time to cast: 1 minute.
+Prerequisites: Summon Spirit and
+Lend Vitality.
+
+Turn Zombie
+===========
+Area
+Inflicts 1d of injury on anything in
+the area that was animated using the
+Zombie spell; DR does not protect. In
+addition, roll 1d for each zombie. On a
+1, it turns and flees from the caster.
+Duration: Successfully turned
+undead will avoid the caster for one
+day.
+Base Cost: 2. Cannot be main-
+tained; must be recast.
+Time to cast: 4 seconds.
+Prerequisite: Zombie. (This spell is
+common among those who have
+Power Investiture.)
+
+Summon Demon
+============
+
+Special
+This is the version of Planar
+Summons (p. 247) that raises demons;
+see that spell description for details. If
+the caster fails to control the demon, it
+always attacks him! If he manages to
+control the demon and give it a com-
+mand, the demon carries out the letter
+of its orders, doing its best to pervert
+their spirit to the caster’s disfavor. It
+also works incidental mischief, unless
+specifically instructed not to.
+Duration: Until the demon’s task is
+done, or one hour, whichever is less.
+Cost: 1 point per 10 character
+points used to build the demon.
+Minimum energy cost is 20 (although
+this will not always summon a 200-
+point being). Those tempted to sum-
+mon powerful demons should bear in
+mind that such demons tend to have
+high Will, with all that implies for con-
+trol . . .
+Time to cast: 5 minutes.
+Prerequisites: Magery 1 and at least
+one spell from each of 10 different
+colleges.
+
+Banish
+======
+
+Special; Resisted by Will
+This spell sends an extradimen-
+sional visitor (e.g., a demon) back to
+its plane of origin. It can only be cast
+if the caster is in his home dimension.
+In an alien plane, you could not “ban-
+ish” yourself back home, but a native
+of that plane could banish you. This
+spell does not work on a creature that
+is already in its home dimension.
+Resolve the Banish attempt as a
+Quick Contest: the caster’s Banish skill
+vs. the subject’s Will. If the caster wins,
+the subject immediately returns to its
+home plane. It cannot return for one
+month. Anything that it brought with
+it when it appeared (e.g., weapons)
+vanishes with it. Other things it may
+be carrying (e.g., screaming victims)
+stay behind.
+Note that certain powerful crea-
+tures are resistant or even immune to
+this spell.
+Modifiers: +4 if the caster knows
+the entity’s “true name”; -5 if the cast-
+er does not know the subject’s plane of
+origin . . . and an extra -1 if he believes
+he knows where the creature came
+from, but is wrong!
+Cost: 1 point per 10 character
+points the subject is worth. Minimum
+energy cost is 10. The caster does not
+know in advance how much energy
+the spell will require, and may fall
+unconscious or even wound himself in
+casting the Banish.
+Time to cast: 5 seconds.
+Prerequisites: Magery 1 and at least
+one spell from each of 10 different col-
+leges.
+
+
+**********************
+Protection and warning
+**********************
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+
+Shield
+======
+Regular
+Conjures an invisible shield of
+magical force that moves to protect
+the subject from frontal attacks. The
+Defense Bonus granted by this spell is
+cumulative with that from an actual
+shield, but this spell does not allow a
+subject without a shield to block.
+Duration: 1 minute.
+Cost: Twice the Defense Bonus
+given to the subject, to a maximum
+DB of 4 (cost 8); half that to maintain.
+Prerequisite: Magery 2.
+
+Armor
+=====
+Regular
+Adds to the Damage Resistance of
+a living subject. DR from this spell is
+treated for all purposes like DR from
+armor, and is cumulative with that
+from actual armor.
+Duration: 1 minute.
+Cost: Twice the Damage Resistance
+given to the subject, to a maximum
+DR of 5 (cost 10); half that to main-
+tain.
+Prerequisites: Magery 2 and Shield.
+
+Magelock
+========
+
+Regular;
+Resists Lockmaster spell
+Locks a door magically. The door
+will not open unless the spell is
+removed
+(Counterspell
+and
+Lockmaster are both able to counter
+it) or the door itself is destroyed.
+Duration: 6 hours.
+Cost: 3 to cast; 2 to maintain.
+Time to cast: 4 seconds.
+Prerequisite: Magery 1.
+
+*****
+Water
+*****
+
+These spells deal with the tradi-
+tional magical “element” of water.
+Except as noted, none of these spells
+affect the water in a human body or
+any other living creature.
+
+=============================================== ======================= =========================================== ================================
+Spell                                           Colleges                Requires                                    Classes
+=============================================== ======================= =========================================== ================================
+=============================================== ======================= =========================================== ================================
+Seek Water
+==========
+
+Information
+This spell lets the caster determine
+the direction, distance, and general
+nature of the nearest significant
+source of water. Use the long-distance
+modifiers (p. 241). Any known sources
+of water may be excluded if the caster
+specifically mentions them before
+beginning. Requires a forked stick;
+roll at -3 if this is not available.
+
+Purify Water
+============
+Special
+
+Lets the caster remove all impuri-
+ties from water by pouring it through
+any hoop or ring (or, in a pinch, his
+own fingers) into a container. Only
+one skill roll is required, as long as the
+flow continues.
+
+Duration: Purified water stays pure
+unless re-contaminated.
+Cost: 1 per gallon purified.
+Time to cast: Usually 5 to 10 sec-
+onds per gallon, unless a large con-
+tainer and ring are used.
+Prerequisite: Seek Water.
+
+Create Water
+============
+
+Regular
+Lets the caster create pure water
+out of nothing. This water may appear
+in any of several forms. It may appear
+within a container, or as a globe in
+midair (it falls immediately). Or it
+may appear as a dense mist of
+droplets; in this form, one gallon of
+water extinguishes all fires in a one-
+yard radius. Water cannot be created
+inside a foe to drown him!
+Duration: The created water is per-
+manent.
+Cost: 2 per gallon created.
+Prerequisite: Purify Water.
+
+Destroy Water
+=============
+
+Area
+Causes water (in any form) to van-
+ish, leaving a vacuum – or perhaps
+specks of dry impurities. If more
+water is all around, it rushes in to fill
+the hole. Good for drying things out,
+saving a drowning victim, etc. Cannot
+be used as a “dehydrating” attack on a
+foe.
+Duration: Permanent.
+Base Cost: 3. In deep water, the area
+is only 2 yards in height (or depth).
+Prerequisite: Create Water.
+
+Breath Water
+============
+
+Regular
+As listed under Air Spells
+
+Shape Water
+===========
+Regular
+Lets the caster sculpt water
+(including ice or steam) into any form,
+and even move it about. Once given a
+shape, the water holds it without fur-
+ther concentration until the spell ends.
+Water moved with this spell travels at
+Move 3.
+A useful shape is a wall of water to
+stop fiery attacks. Twenty gallons cre-
+ates a wall 2 yards high ¥ 1 yard wide.
+This stops Fireball spells and ordinary
+fire.
+Duration: 1 minute.
+Cost: 1 per 20 gallons shaped; same
+cost to maintain.
+Time to cast: 2 seconds.
+Prerequisite: Create Water.
+
+Fog
+===
+
+Area
+
+Creates an area of dense fog. Even
+one yard of fog blocks vision. Flaming
+weapons and missiles lose their extra
+power in fog. A Fireball loses 1 point of
+damage per yard of fog it must traverse
+(e.g., a 3d Fireball that crosses 5 yards
+of fog inflicts 3d-5 damage), while vic-
+tims of an Explosive Fireball may
+count each yard of fog as two yards of
+distance from the blast. However, no
+amount of fog can extinguish a fire.
+Duration: 1 minute.
+Base Cost: 2; half that to maintain.
+Prerequisite: Shape Water.
+
+Icy Weapon
+==========
+
+Causes any weapon to become
+freezing cold. This does not harm the
+user or the weapon, but an attack with
+the weapon does +2 damage to most
+foes if it penetrates DR. Multiply this
+bonus for any Vulnerability (p. 161) to
+ice or cold. Add this bonus to the final
+injury inflicted by the attack – for
+instance, an “impaling” icy attack is
+still only good for +2 damage, not +4.
+Duration: 1 minute.
+Cost: 3 to cast; 1 to maintain.
+Time to cast: 3 seconds.
+Prerequisite: Create Water.
