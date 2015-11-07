@@ -1,0 +1,9 @@
+*****
+Магия
+*****
+
+
+.. toctree::
+
+
+   colleges/sound

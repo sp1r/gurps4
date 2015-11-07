@@ -11,10 +11,16 @@ GURPS 4
 .. toctree::
    :maxdepth: 2
 
+   combat/index
+
+   magic/index
+
    character
    advantages
    disadvantages
+
    skills
+
    spells
 
 
