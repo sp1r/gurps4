@@ -6,3 +6,13 @@ install:
 script:
   - cd docs
   - make html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  local-dir: "docs/build/html"
+  target-branch: master
+  repo: sp1r/sp1r.github.io
+  on:
+    branch: master
